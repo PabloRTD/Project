@@ -1,10 +1,59 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title></title>
-</head>
 <body>
-<button>Book a Trip</button>
-<button>Take an Adventure</button>
+<p>Check the boxes of what family members you want to take a trip with and how many of each</p>
+<form>
+  Number of adults:<br>
+  <input type="text" name="numadults"><br>
+  Number of children above 7 years of age:<br>
+  <input type="text" name="numkid"><br>
+Number of children below 7 years of age:<br>
+  <input type="text" name="numchild"><br>
+</form>
+
+<p>Do you want to travel to a safe place that has a small amount of criminal activity and natural disasters or are you willing to take a risk. <List dangerous and safe places to travel to, user can click one to find out more to open up a new set of questions></p>
+<form action=””>
+<input type="checkbox" name="safe" value="Safe">Safe<br>
+<input type="checkbox" name="safe" value="Risk">Risk<br>
+</form>
+
+
+<p>Do you prefer a warm, hot, cold, rainy, or snowy weather. Click button to show which places have that weather which you can choose from.</p>
+<form action="">
+<input type="checkbox" name="weather" value="Hot">Hot<br>
+<input type="checkbox" name="weather" value="Cold">Cold<br>
+<input type="checkbox" name="weather" value=”Rainy”>Rainy<br>
+<input type="checkbox" name="weather" value=”Snowy”>Snowy<br>
+</form>
+
+<p>Do you want to travel to an English speaking location or a certain language?</p>
+
+<form>
+  Choose Language:<br>
+  <input type="text" name="language"><br>
+</form>
+
+
+<p>Do you want access to cellular data wherever you go or just your hotel or doesn't matter?</p>
+<form action=””>
+<input type="checkbox" name="cell value="CellE">I want cellular data everywhere<br>
+<input type="checkbox" name="cell" value="CellH">Cellular data in the hotel is enough<br>
+<input type="checkbox" name="cell" value="CellN">Do not really need cellular data on my trip<br>
+</form>
+
+<p>Do you want access to calling?</p>
+<form>
+<input type="checkbox" name="cell" value="CallY">Yes<br>
+<input type="checkbox" name="call" value="CallN">Do not really need cellular data on my trip<br>
+</form>
+
+
+<p>You need a flu shot for these listed locations, would you travel there and get one? It is recommended to stay healthy.</p>
+<form>
+<input type="checkbox" name="flue" value="FluY">Yes I will get a flu shot<br>
+<input type="checkbox" name="flue" value="FluYN">No I will not get a flu shot but still want to travel there<br>
+<input type="checkbox" name="flue" value="FluN">No I will not get a flu shot and want to go to a location that does not require flu shots<br>
+</form>
+
 </body>
 </html>
