@@ -1,3 +1,12 @@
 // Place all the styles related to the frontpage controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+body{
+/*Remove below line to make bgimage NOT fixed*/
+background-attachment:fixed;
+background-repeat: no-repeat;
+/*Use center center in place of 300 200 to center bg image*/
+background-position: 300 200;
+}
