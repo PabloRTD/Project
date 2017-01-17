@@ -1,0 +1,2 @@
+class ThirdPageController < ApplicationController
+end

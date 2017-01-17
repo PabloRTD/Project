@@ -2,11 +2,66 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+.background1 {
+    background-image: url("http://i.imgur.com/RktuAes.gif" );
+    background-size:100%;
+    display:inline-block;
+	vertical-align: top;
+	width:1340px;
+}
 
-body{
-/*Remove below line to make bgimage NOT fixed*/
-background-attachment:fixed;
-background-repeat: no-repeat;
-/*Use center center in place of 300 200 to center bg image*/
-background-position: 300 200;
+.background2 {
+    background-image: url("http://i.imgur.com/mJBEies.gif" );
+    background-size:100%;
+    display:inline-block;
+	vertical-align: top;
+	width:1340px;
+}
+
+.background3 {
+/*    background-image: url("http://media3.giphy.com/media/NPP4Z7wMIf0SA/giphy.gif" );
+*/    background-image: url("http://writm.com/wp-content/uploads/2016/08/travel-022.jpg" );
+    background-size:100%;
+    display:inline-block;
+	vertical-align: top;
+	width:1340px;
+}
+
+.title {
+	background-image: url("http://www3-stg.tivo.com/assets/images/abouttivo/resources/downloads/backgrounds/Blue_bkgd_72rgb.jpg");
+	background-size:100%;
+	display:inline-block;
+	vertical-align: top;
+	padding: 5px;
+	margin: 5px;
+	border-radius: 30px;
+}
+
+p{
+	background-image: url("http://media.istockphoto.com/photos/blue-background-picture-id533498953?k=6&m=533498953&s=170667a&w=0&h=zWHxdDJ7Eh_Man6656KvGDhQ_RvDBZAMyKNlQ7V8cHE=");
+	font-size:90%;
+	border-radius:30px;
+	padding:5px 0px 10px 15px;
+	margin:20px 0px 20px 5px;
+	width:300px;
+}
+
+form{
+	background-image: url("http://media.istockphoto.com/photos/blue-background-picture-id518094392?k=6&m=518094392&s=170667a&w=0&h=jFq7AAr7Uu2yyTBEtyjAbV477WgWwXCrWgDD5zLz4UU=");
+	font-size:90%;
+	border-radius:30px;
+	padding:5px 0px 10px 15px;
+	margin:20px 0px 20px 5px;
+	width:300px;
+}
+
+ol{
+	color:grey;
+}
+
+
+#hacker{
+height: 400px;
+width: 700px;
+background-color: red;
 }

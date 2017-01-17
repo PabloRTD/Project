@@ -1,0 +1,2 @@
+module ThirdPageHelper
+end
