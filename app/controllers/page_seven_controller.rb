@@ -1,0 +1,2 @@
+class PageSevenController < ApplicationController
+end

@@ -1,0 +1,2 @@
+class FifthPageController < ApplicationController
+end

@@ -1,0 +1,2 @@
+class PageSixController < ApplicationController
+end

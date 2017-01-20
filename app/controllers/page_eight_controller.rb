@@ -1,0 +1,2 @@
+class PageEightController < ApplicationController
+end

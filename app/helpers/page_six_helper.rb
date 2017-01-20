@@ -1,0 +1,2 @@
+module PageSixHelper
+end

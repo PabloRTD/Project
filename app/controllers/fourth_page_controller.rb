@@ -1,0 +1,2 @@
+class FourthPageController < ApplicationController
+end
