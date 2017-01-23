@@ -2,66 +2,19 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.background1 {
-    background-image: url("http://i.imgur.com/RktuAes.gif" );
-    background-size:100%;
-    display:inline-block;
-	vertical-align: top;
-	width:1340px;
-}
-
-.background2 {
-    background-image: url("http://i.imgur.com/mJBEies.gif" );
-    background-size:100%;
-    display:inline-block;
-	vertical-align: top;
-	width:1340px;
-}
-
-.background3 {
-/*    background-image: url("http://media3.giphy.com/media/NPP4Z7wMIf0SA/giphy.gif" );
-*/    background-image: url("http://writm.com/wp-content/uploads/2016/08/travel-022.jpg" );
-    background-size:100%;
-    display:inline-block;
-	vertical-align: top;
-	width:1340px;
-}
-
-.title {
-	background-image: "Blue.jpg"
-	background-size:100%;
-	display:inline-block;
-	vertical-align: top;
-	padding: 5px;
-	margin: 5px;
-	border-radius: 30px;
+#Question{
+	text-align: center;
+	height: 100px;
+	width: 98%;
+	padding: 10px;
+	border: 5px solid blue;
+	vertical-align: middle;
+	line-height: 100px;
 }
 
 p{
-	background-image: url("Blue2.jpg");
-	font-size:90%;
-	border-radius:30px;
-	padding:5px 0px 10px 15px;
-	margin:20px 0px 20px 5px;
-	width:300px;
-}
-
-form{
-	background-image: url("Blue3.jpg");
-	font-size:90%;
-	border-radius:30px;
-	padding:5px 0px 10px 15px;
-	margin:20px 0px 20px 5px;
-	width:300px;
-}
-
-ol{
-	color:grey;
-}
-
-
-#hacker{
-height: 400px;
-width: 700px;
-background-color: red;
+	font-size: large;
+	display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
 }
