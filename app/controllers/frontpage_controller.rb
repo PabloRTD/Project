@@ -1,4 +1,7 @@
 class FrontpageController < ApplicationController
-	class Home
+	def Home
 	end
+
+	#def two
+	#end
 end

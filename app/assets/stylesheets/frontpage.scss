@@ -1,23 +1,47 @@
-// Place all the styles related to the frontpage controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
-// Place all the styles related to the frontpage controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
-
-#Question{
-	text-align: center;
-	height: 100px;
-	width: 98%;
-	padding: 10px;
-	border: 5px solid blue;
-	vertical-align: middle;
-	line-height: 100px;
+*{
+ margin: 0px;
+ padding: 0px;
+}
+#Wrapper{
+height: 700px;
+padding: 50px;
+background-image:url("Background1.jpg");
+background-size:100%;
+}
+#Header{
+width: 100%;
+height: 50px;
+outline: solid;
+outline-color: black;
+text-align: center;
+}
+#Question1 {
+outline: solid;
+outline-color: black;
+display: inline-block;
+margin: 10px;
+height: 150px;
+width: 150px;
+margin-left: auto;
+margin-right: auto
+}
+#Question2 {
+outline: solid;
+outline-color: black;
+display: inline-block;
+margin: 10px;
+height: 150px;
+width: 150px;
+margin-left: auto;
+margin-right: auto
 }
 
-p{
-	font-size: large;
-	display: inline-block;
-  vertical-align: middle;
-  line-height: normal;
+#Main{
+	text-align: center;
+	height: 200px;
+	width: 400px;
+	padding: 20px;
+	outline: solid;
+	outline-color: black;
+
 }
