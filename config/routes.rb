@@ -11,6 +11,8 @@ get '/Population' => 'frontpage#PopulationQuestion'
 get '/Language' => 'frontpage#LanguageQuestion'
 
 get '/Travelers' => 'frontpage#TravelersQuestion'
+
+get '/Book' => 'frontpage#Booking'
     # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

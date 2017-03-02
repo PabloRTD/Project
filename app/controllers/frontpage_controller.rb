@@ -17,4 +17,7 @@ class FrontpageController < ApplicationController
 
 	def TravelersQuestion
 	end	
+
+	def Booking
+	end
 end
