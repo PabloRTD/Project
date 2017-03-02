@@ -21,3 +21,4 @@ class FrontpageController < ApplicationController
 	def Booking
 	end
 end
+

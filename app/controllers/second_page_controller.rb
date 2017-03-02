@@ -1,2 +1,0 @@
-class SecondPageController < ApplicationController
-end

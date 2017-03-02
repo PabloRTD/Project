@@ -1,2 +1,0 @@
-class PageEightController < ApplicationController
-end
