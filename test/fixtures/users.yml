@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  Destination: MyString
+  Population: 
+  Langauge: MyString
+  hasWater: false
+  hasSnow: false
+  hasWildlife: false
+
+two:
+  Destination: MyString
+  Population: 
+  Langauge: MyString
+  hasWater: false
+  hasSnow: false
+  hasWildlife: false

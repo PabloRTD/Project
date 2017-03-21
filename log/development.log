@@ -32868,3 +32868,63 @@ Started GET "/Book" for ::1 at 2017-03-15 11:18:29 -0700
 Processing by FrontpageController#Booking as HTML
   Rendered frontpage/Booking.html.erb within layouts/application (0.0ms)
 Completed 200 OK in 102ms (Views: 72.3ms | ActiveRecord: 0.0ms)
+  [1m[36m (147.2ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.5ms)[0m  select sqlite_version(*)
+  [1m[36m (110.8ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.5ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateUsers (20170321025651)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateUsers (20170321025651)
+  [1m[35m (0.5ms)[0m  begin transaction
+  [1m[36m (1.4ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "Destination" varchar, "Population" integer, "Langauge" varchar, "hasWater" boolean, "hasSnow" boolean, "hasWildlife" boolean, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20170321025651"]]
+  [1m[36m (134.1ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.0ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.5ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (63.5ms)[0m  [1mINSERT INTO "users" ("Destination", "Population", "Langauge", "hasWater", "hasSnow", "hasWildlife", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["Destination", "Tokyo"], ["Population", 30000], ["Langauge", "Japanese"], ["hasWater", "t"], ["hasSnow", "f"], ["hasWildlife", "t"], ["created_at", "2017-03-21 03:34:06.740872"], ["updated_at", "2017-03-21 03:34:06.740872"]]
+  [1m[35m (111.9ms)[0m  commit transaction
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (1.5ms)[0m  [1mINSERT INTO "users" ("Destination", "Population", "Langauge", "hasWater", "hasSnow", "hasWildlife", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["Destination", "Brazil"], ["Population", 50000], ["Langauge", "Portuguese"], ["hasWater", "t"], ["hasSnow", "f"], ["hasWildlife", "t"], ["created_at", "2017-03-21 03:39:59.669026"], ["updated_at", "2017-03-21 03:39:59.669026"]]
+  [1m[35m (142.8ms)[0m  commit transaction
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT "users".* FROM "users"[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (24.5ms)[0m  [1mINSERT INTO "users" ("Destination", "Population", "Langauge", "hasWater", "hasSnow", "hasWildlife", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["Destination", "Boznia"], ["Population", 70000], ["Langauge", "Croatian"], ["hasWater", "f"], ["hasSnow", "f"], ["hasWildlife", "t"], ["created_at", "2017-03-21 03:43:14.164074"], ["updated_at", "2017-03-21 03:43:14.164074"]]
+  [1m[35m (113.4ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (19.6ms)[0m  INSERT INTO "users" ("Destination", "Population", "Langauge", "hasWater", "hasSnow", "hasWildlife", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["Destination", "Australia"], ["Population", 60000], ["Langauge", "English"], ["hasWater", "t"], ["hasSnow", "f"], ["hasWildlife", "t"], ["created_at", "2017-03-21 04:06:35.935547"], ["updated_at", "2017-03-21 04:06:35.935547"]]
+  [1m[36m (133.4ms)[0m  [1mcommit transaction[0m
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users"
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (12.2ms)[0m  INSERT INTO "users" ("Destination", "Population", "Langauge", "hasWater", "hasSnow", "hasWildlife", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["Destination", "Russia"], ["Population", 90000], ["Langauge", "Russian"], ["hasWater", "f"], ["hasSnow", "t"], ["hasWildlife", "f"], ["created_at", "2017-03-21 04:15:13.666783"], ["updated_at", "2017-03-21 04:15:13.666783"]]
+  [1m[36m (115.7ms)[0m  [1mcommit transaction[0m
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users"
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.5ms)[0m  INSERT INTO "users" ("Destination", "Population", "Langauge", "hasWater", "hasSnow", "hasWildlife", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["Destination", "Greenland"], ["Population", 20000], ["Langauge", "Danish"], ["hasWater", "f"], ["hasSnow", "t"], ["hasWildlife", "t"], ["created_at", "2017-03-21 04:24:14.133741"], ["updated_at", "2017-03-21 04:24:14.133741"]]
+  [1m[36m (105.3ms)[0m  [1mcommit transaction[0m
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users"
+  [1m[36m (0.5ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (2.5ms)[0m  INSERT INTO "users" ("Destination", "Population", "Langauge", "hasWater", "hasSnow", "hasWildlife", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["Destination", "South Korean"], ["Population", 15000], ["Langauge", "Korean"], ["hasWater", "t"], ["hasSnow", "f"], ["hasWildlife", "f"], ["created_at", "2017-03-21 04:28:31.359818"], ["updated_at", "2017-03-21 04:28:31.359818"]]
+  [1m[36m (142.3ms)[0m  [1mcommit transaction[0m
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users"
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (44.1ms)[0m  INSERT INTO "users" ("Destination", "Population", "Langauge", "hasWater", "hasSnow", "hasWildlife", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["Destination", "Ireland"], ["Population", 10000], ["Langauge", "Irish"], ["hasWater", "t"], ["hasSnow", "f"], ["hasWildlife", "f"], ["created_at", "2017-03-21 04:37:20.929644"], ["updated_at", "2017-03-21 04:37:20.929644"]]
+  [1m[36m (102.3ms)[0m  [1mcommit transaction[0m
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users"
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (13.4ms)[0m  INSERT INTO "users" ("Destination", "Population", "Langauge", "hasWater", "hasSnow", "hasWildlife", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["Destination", "Mexico"], ["Population", 40000], ["Langauge", "Spanish"], ["hasWater", "t"], ["hasSnow", "f"], ["hasWildlife", "t"], ["created_at", "2017-03-21 04:38:08.695749"], ["updated_at", "2017-03-21 04:38:08.695749"]]
+  [1m[36m (103.4ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.5ms)[0m  begin transaction
+  [1m[36mSQL (1.7ms)[0m  [1mINSERT INTO "users" ("Destination", "Population", "Langauge", "hasWater", "hasSnow", "hasWildlife", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["Destination", "Spain"], ["Population", 30000], ["Langauge", "Spanish"], ["hasWater", "t"], ["hasSnow", "f"], ["hasWildlife", "t"], ["created_at", "2017-03-21 04:38:43.958867"], ["updated_at", "2017-03-21 04:38:43.958867"]]
+  [1m[35m (117.3ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (2.0ms)[0m  INSERT INTO "users" ("Destination", "Population", "Langauge", "hasWater", "hasSnow", "hasWildlife", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["Destination", "United States"], ["Population", 50000], ["Langauge", "English"], ["hasWater", "t"], ["hasSnow", "f"], ["hasWildlife", "f"], ["created_at", "2017-03-21 04:39:35.236714"], ["updated_at", "2017-03-21 04:39:35.236714"]]
+  [1m[36m (122.4ms)[0m  [1mcommit transaction[0m
+  [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users"
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.5ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
