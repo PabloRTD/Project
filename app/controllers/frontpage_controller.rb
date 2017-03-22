@@ -20,5 +20,9 @@ class FrontpageController < ApplicationController
 
 	def Booking
 	end
+
+	def HasQuestion
+		
+	end
 end
 

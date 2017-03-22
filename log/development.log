@@ -32928,3 +32928,138 @@ Migrating to CreateUsers (20170321025651)
   [1m[35mUser Load (0.0ms)[0m  SELECT "users".* FROM "users"
   [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
   [1m[35mActiveRecord::SchemaMigration Load (0.5ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mUser Load (11.0ms)[0m  [1mSELECT "users".* FROM "users"[0m
+
+
+Started GET "/" for ::1 at 2017-03-22 15:54:10 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by FrontpageController#Home as HTML
+  Rendered frontpage/Home.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 3884ms (Views: 3861.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2017-03-22 15:54:15 -0700
+
+
+Started GET "/assets/fifth_page.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2017-03-22 15:54:15 -0700
+
+
+Started GET "/assets/application.self-b1016c73733f3f50547bdb384e7c017935ec3fc16f9a031e0e836e29d332c61d.css?body=1" for ::1 at 2017-03-22 15:54:15 -0700
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2017-03-22 15:54:15 -0700
+
+
+Started GET "/assets/frontpage.self-0d4624f3a605fbc81e96c0b74796a444ffb36899b07ce4e60a9fd1968ea876d2.css?body=1" for ::1 at 2017-03-22 15:54:15 -0700
+
+
+Started GET "/assets/jquery.self-bd7ddd393353a8d2480a622e80342adf488fb6006d667e8b42e4c0073393abee.js?body=1" for ::1 at 2017-03-22 15:54:15 -0700
+
+
+Started GET "/assets/fourth_page.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2017-03-22 15:54:15 -0700
+
+
+Started GET "/assets/frontpage.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2017-03-22 15:54:15 -0700
+
+
+Started GET "/assets/page_seven.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2017-03-22 15:54:15 -0700
+
+
+Started GET "/assets/page_eight.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2017-03-22 15:54:15 -0700
+
+
+Started GET "/assets/page_six.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2017-03-22 15:54:15 -0700
+
+
+Started GET "/assets/second_page.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2017-03-22 15:54:15 -0700
+
+
+Started GET "/assets/third_page.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2017-03-22 15:54:15 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2017-03-22 15:54:15 -0700
+
+
+Started GET "/Population" for ::1 at 2017-03-22 15:54:21 -0700
+Processing by FrontpageController#PopulationQuestion as HTML
+  Rendered frontpage/PopulationQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 124ms (Views: 123.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/Money" for ::1 at 2017-03-22 15:54:22 -0700
+Processing by FrontpageController#MoneyQuestion as HTML
+  Rendered frontpage/MoneyQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 131ms (Views: 130.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/Weather" for ::1 at 2017-03-22 15:54:23 -0700
+Processing by FrontpageController#WeatherQuestion as HTML
+  Rendered frontpage/WeatherQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 111ms (Views: 110.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/Language" for ::1 at 2017-03-22 15:54:24 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 104ms (Views: 103.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/Travelers" for ::1 at 2017-03-22 15:54:25 -0700
+Processing by FrontpageController#TravelersQuestion as HTML
+  Rendered frontpage/TravelersQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 105ms (Views: 104.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/Extra" for ::1 at 2017-03-22 15:54:27 -0700
+Processing by FrontpageController#HasQuestion as HTML
+  Rendered frontpage/HasQuestion.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 113ms (Views: 112.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-03-22 15:56:26 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by FrontpageController#Home as HTML
+  Rendered frontpage/Home.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 359ms (Views: 344.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/Population" for ::1 at 2017-03-22 15:56:32 -0700
+Processing by FrontpageController#PopulationQuestion as HTML
+  Rendered frontpage/PopulationQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 100ms (Views: 99.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/Money" for ::1 at 2017-03-22 15:56:33 -0700
+Processing by FrontpageController#MoneyQuestion as HTML
+  Rendered frontpage/MoneyQuestion.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 102ms (Views: 101.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/Weather" for ::1 at 2017-03-22 15:56:34 -0700
+Processing by FrontpageController#WeatherQuestion as HTML
+  Rendered frontpage/WeatherQuestion.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 119ms (Views: 119.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/Language" for ::1 at 2017-03-22 15:56:34 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 119ms (Views: 118.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/Language" for ::1 at 2017-03-22 15:56:35 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 118ms (Views: 117.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/Travelers" for ::1 at 2017-03-22 15:56:35 -0700
+Processing by FrontpageController#TravelersQuestion as HTML
+  Rendered frontpage/TravelersQuestion.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 109ms (Views: 109.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/Extra" for ::1 at 2017-03-22 15:56:47 -0700
+Processing by FrontpageController#HasQuestion as HTML
+  Rendered frontpage/HasQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 109ms (Views: 108.3ms | ActiveRecord: 0.0ms)
