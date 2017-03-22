@@ -2,11 +2,13 @@ Rails.application.routes.draw do
 
 root 'frontpage#Home'
 
+get '/GenerateLocation' => 'frontpage#PopulationQuestion'
+post '/PopulationData' => 'frontpage#PopulationData'
+
 get '/Money' => 'frontpage#MoneyQuestion'
+post '/MoneyData' => 'frontpage#MoneyData'
 
 get '/Weather' => 'frontpage#WeatherQuestion'
-
-get '/Population' => 'frontpage#PopulationQuestion'
 
 get '/Language' => 'frontpage#LanguageQuestion'
 
