@@ -3,11 +3,12 @@
 			<h1 style="color:#39CCCC">Money</h1>
 </div>
 	<h3 class="question">How much money do you plan on spending for the Trip</h3>
-	<form class="answer">
+	<form class="answer" action="/MoneyData" method="post">
+		<%= hidden_field_tag :authenticity_token, form_authenticity_token -%>
 		<input type="checkbox" name="money" value="$100-$300">$100-$300<br>
 		<input type="checkbox" name="money" value="$400-$600">$400-$600<br>
 		<input type="checkbox" name="money" value="$700-$1000">$700-$1000<br>
 		<input type="checkbox" name="money" value="$1000-$5000">$1000-$5000<br>
+		<input type="submit" value="Next Question" />
 	</form>
-	<a href="/Weather" class="button">Next Page</a>
 </div>
