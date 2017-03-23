@@ -16,7 +16,9 @@ get '/Book' => 'frontpage#Booking'
 
 get '/Extra' => 'frontpage#HasQuestion'
 
-get 'Home' => 'frontpage#Home'
+get '/Home' => 'frontpage#Home'
+
+get '/Know' => 'frontpage#KnowWhere'
     # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

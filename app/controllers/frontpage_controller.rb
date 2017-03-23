@@ -22,7 +22,9 @@ class FrontpageController < ApplicationController
 	end
 
 	def HasQuestion
-		
+	end
+
+	def KnowWhere
 	end
 end
 
