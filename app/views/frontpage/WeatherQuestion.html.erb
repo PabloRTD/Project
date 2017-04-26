@@ -3,11 +3,13 @@
 			<h1 style="color:#39CCCC">Weather</h1>
 </div>
 	<h3 class="question">Type of weather you prefer?</h3>
-	<form class="answer">
+	<form class="answer" action="/WeatherData" method="post">
+	<%= hidden_field_tag :authenticity_token, form_authenticity_token -%>
 		<input type="checkbox" name="weather" value="Hot">Hot<br>
 		<input type="checkbox" name="weather" value="Cold">Cold<br>
 		<input type="checkbox" name="weather" value=”Rainy”>Rainy<br>
 		<input type="checkbox" name="weather" value=”Snowy”>Snowy<br>
+		<input class="button" type="submit" value="Next question"/>
 </form>
-<a href="/Language" class="button">Next Page</a>
+
 </div>

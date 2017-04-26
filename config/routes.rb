@@ -10,10 +10,13 @@ get '/Money' => 'frontpage#MoneyQuestion'
 post '/MoneyData' => 'frontpage#MoneyData'
 
 get '/Weather' => 'frontpage#WeatherQuestion'
+post '/WeatherData' => 'frontpage#WeatherData'
 
 get '/Language' => 'frontpage#LanguageQuestion'
+post '/LanguageData' => 'frontpage#LanguageData'
 
 get '/Travelers' => 'frontpage#TravelersQuestion'
+post '/TravelersData' => 'frontpage#TravelersData'
 
 get '/Book' => 'frontpage#Booking'
 
