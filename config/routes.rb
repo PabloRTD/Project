@@ -20,6 +20,8 @@ post '/TravelersData' => 'frontpage#TravelersData'
 
 get '/Book' => 'frontpage#Booking'
 
+get '/Form' => 'frontpage#FormBooking'
+
 get '/Extra' => 'frontpage#HasQuestion'
 
 
