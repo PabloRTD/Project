@@ -42724,3 +42724,2794 @@ Started GET "/assets/ocean2.jpg" for ::1 at 2017-05-08 19:36:19 -0700
 
 
 Started GET "/assets/mountains2.jpg" for ::1 at 2017-05-08 19:36:19 -0700
+
+
+Started GET "/" for ::1 at 2017-05-10 19:39:12 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by FrontpageController#Home as HTML
+  Rendered frontpage/Home.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 3680ms (Views: 3652.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for ::1 at 2017-05-10 19:39:17 -0700
+
+
+Started GET "/assets/fourth_page.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2017-05-10 19:39:17 -0700
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for ::1 at 2017-05-10 19:39:17 -0700
+
+
+Started GET "/assets/frontpage.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2017-05-10 19:39:17 -0700
+
+
+Started GET "/assets/frontpage.self-3a4dde67f000b4f16c3b7bb84748bf9e2546d7f730987173f8eb5cf312e94aa7.css?body=1" for ::1 at 2017-05-10 19:39:17 -0700
+
+
+Started GET "/assets/fifth_page.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2017-05-10 19:39:17 -0700
+
+
+Started GET "/assets/page_eight.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2017-05-10 19:39:17 -0700
+
+
+Started GET "/assets/page_seven.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2017-05-10 19:39:17 -0700
+
+
+Started GET "/assets/page_six.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2017-05-10 19:39:17 -0700
+
+
+Started GET "/assets/second_page.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2017-05-10 19:39:17 -0700
+
+
+Started GET "/assets/third_page.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2017-05-10 19:39:17 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2017-05-10 19:39:17 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 19:39:17 -0700
+
+
+Started GET "/assets/London.jpg" for ::1 at 2017-05-10 19:39:18 -0700
+
+
+Started GET "/assets/cinqueterre.jpg" for ::1 at 2017-05-10 19:39:18 -0700
+
+
+Started GET "/assets/pisa.jpg" for ::1 at 2017-05-10 19:39:18 -0700
+
+
+Started GET "/assets/sanfran.jpg" for ::1 at 2017-05-10 19:39:18 -0700
+
+
+Started GET "/assets/york.png" for ::1 at 2017-05-10 19:39:18 -0700
+
+
+Started GET "/assets/ocean2.jpg" for ::1 at 2017-05-10 19:39:18 -0700
+
+
+Started GET "/assets/Paris.jpg" for ::1 at 2017-05-10 19:39:18 -0700
+
+
+Started GET "/assets/mountains2.jpg" for ::1 at 2017-05-10 19:39:18 -0700
+
+
+Started GET "/GenerateLocation" for ::1 at 2017-05-10 19:39:28 -0700
+Processing by FrontpageController#PopulationQuestion as HTML
+  Rendered frontpage/PopulationQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 128ms (Views: 127.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/PopulationData" for ::1 at 2017-05-10 19:39:29 -0700
+Processing by FrontpageController#PopulationData as HTML
+  Parameters: {"authenticity_token"=>"m8Y8/aDcHml/LErVQ4uSIm99x3r3+dg0had7pLV7cvzEfVBqsKBAy/rUw+ueDAtiCmq45xW27JZAtrnrKoGrOw=="}
+Redirected to http://localhost:3000/Money
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/Money" for ::1 at 2017-05-10 19:39:29 -0700
+Processing by FrontpageController#MoneyQuestion as HTML
+  Rendered frontpage/MoneyQuestion.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 200ms (Views: 199.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/MoneyData" for ::1 at 2017-05-10 19:39:30 -0700
+Processing by FrontpageController#MoneyData as HTML
+  Parameters: {"authenticity_token"=>"Qome5COVGPfnAbsKXwpW4wd1dNI3PLYWmEE/8+kpF9kdMvJzM+lGVWL5MjSCjc+jYmILT9VzgrRdUP28dtPOHg=="}
+Redirected to http://localhost:3000/Weather
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/Weather" for ::1 at 2017-05-10 19:39:31 -0700
+Processing by FrontpageController#WeatherQuestion as HTML
+  Rendered frontpage/WeatherQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 168ms (Views: 168.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/WeatherData" for ::1 at 2017-05-10 19:39:31 -0700
+Processing by FrontpageController#WeatherData as HTML
+  Parameters: {"authenticity_token"=>"mlcd/KKeK7HrSEShj23OqtjAxvPaHew+NVJeUCRGeQvF7HFrsuJ1E26wzZ9S6lfqvde5bjhS2JzwQ5wfu7ygzA=="}
+Redirected to http://localhost:3000/Language
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/Language" for ::1 at 2017-05-10 19:39:31 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 105ms (Views: 105.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 19:39:32 -0700
+
+
+Started GET "/lmao.jpg" for ::1 at 2017-05-10 19:39:32 -0700
+
+ActionController::RoutingError (No route matches [GET] "/lmao.jpg"):
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.1) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  C:/RailsInstaller/Ruby2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (44.6ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (2012.3ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (1388.7ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (3233.7ms)
+
+
+Started GET "/Language" for ::1 at 2017-05-10 19:41:28 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 225ms (Views: 224.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 19:41:29 -0700
+
+
+Started GET "/Language" for ::1 at 2017-05-10 19:41:46 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 126ms (Views: 126.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 19:41:46 -0700
+
+
+Started GET "/%3Cimg%20src=%22/assets/lmao.jpg%22%20alt=%22Lmao%22%20/%3E" for ::1 at 2017-05-10 19:41:46 -0700
+
+ActionController::RoutingError (No route matches [GET] "/%3Cimg%20src=%22/assets/lmao.jpg%22%20alt=%22Lmao%22%20/%3E"):
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.1) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  C:/RailsInstaller/Ruby2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (1856.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (1234.8ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (2851.6ms)
+
+
+Started GET "/Language" for ::1 at 2017-05-10 19:42:16 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 125ms (Views: 124.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 19:42:17 -0700
+
+
+Started GET "/Language" for ::1 at 2017-05-10 19:42:46 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 111ms (Views: 111.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 19:42:47 -0700
+
+
+Started GET "/Language" for ::1 at 2017-05-10 19:43:42 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 121ms (Views: 121.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 19:43:42 -0700
+
+
+Started GET "/Language" for ::1 at 2017-05-10 19:43:53 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 126ms (Views: 125.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 19:43:53 -0700
+
+
+Started GET "/Language" for ::1 at 2017-05-10 19:46:42 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (28.4ms)
+Completed 500 Internal Server Error in 96ms (ActiveRecord: 0.0ms)
+
+SyntaxError (C:/Users/drath/expedia/Project/app/views/frontpage/LanguageQuestion.html.erb:12: syntax error, unexpected ':', expecting ')'
+.../assets/lmao.jpg" , min-height: '100' );@output_buffer.safe_...
+...                               ^):
+  app/views/frontpage/LanguageQuestion.html.erb:12: syntax error, unexpected ':', expecting ')'
+
+
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (1389.3ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (1238.9ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (2876.6ms)
+
+
+Started GET "/Language" for ::1 at 2017-05-10 19:47:01 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 120ms (Views: 119.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 19:47:01 -0700
+
+
+Started GET "/Language" for ::1 at 2017-05-10 19:47:34 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 112ms (Views: 111.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 19:47:34 -0700
+
+
+Started GET "/Language" for ::1 at 2017-05-10 19:49:43 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 126ms (Views: 125.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 19:49:43 -0700
+
+
+Started GET "/Language" for ::1 at 2017-05-10 19:49:49 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 142ms (Views: 141.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 19:49:49 -0700
+
+
+Started GET "/Language" for ::1 at 2017-05-10 19:52:19 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 122ms (Views: 121.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 19:52:20 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 19:52:20 -0700
+
+
+Started GET "/Language" for ::1 at 2017-05-10 19:52:58 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 115ms (Views: 115.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 19:52:58 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 19:52:58 -0700
+
+
+Started GET "/Language" for ::1 at 2017-05-10 19:54:06 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 68ms (ActiveRecord: 0.0ms)
+
+SyntaxError (C:/Users/drath/expedia/Project/app/views/frontpage/LanguageQuestion.html.erb:19: syntax error, unexpected ':', expecting ')'
+...ts/lmao.jpg" , background-size: 'cover' );@output_buffer.saf...
+...                               ^):
+  app/views/frontpage/LanguageQuestion.html.erb:19: syntax error, unexpected ':', expecting ')'
+
+
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (1381.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (1285.4ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (2968.9ms)
+
+
+Started GET "/Language" for ::1 at 2017-05-10 19:56:24 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 69ms (ActiveRecord: 0.0ms)
+
+SyntaxError (C:/Users/drath/expedia/Project/app/views/frontpage/LanguageQuestion.html.erb:19: syntax error, unexpected ')'
+...mage_tag "/assets/lmao.jpg" , );@output_buffer.safe_append='...
+...                               ^
+C:/Users/drath/expedia/Project/app/views/frontpage/LanguageQuestion.html.erb:41: syntax error, unexpected keyword_ensure, expecting ')'
+C:/Users/drath/expedia/Project/app/views/frontpage/LanguageQuestion.html.erb:43: syntax error, unexpected keyword_end, expecting ')'):
+  app/views/frontpage/LanguageQuestion.html.erb:19: syntax error, unexpected ')'
+  app/views/frontpage/LanguageQuestion.html.erb:41: syntax error, unexpected keyword_ensure, expecting ')'
+  app/views/frontpage/LanguageQuestion.html.erb:43: syntax error, unexpected keyword_end, expecting ')'
+
+
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (1415.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (1275.4ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (2965.0ms)
+
+
+Started GET "/Language" for ::1 at 2017-05-10 19:56:36 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 126ms (Views: 125.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 19:56:37 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 19:56:37 -0700
+
+
+Started GET "/Language" for ::1 at 2017-05-10 19:58:01 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 121ms (Views: 120.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 19:58:01 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 19:58:01 -0700
+
+
+Started GET "/Language" for ::1 at 2017-05-10 19:58:44 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 116ms (Views: 116.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 19:58:44 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 19:58:44 -0700
+
+
+Started POST "/LanguageData" for ::1 at 2017-05-10 19:58:54 -0700
+Processing by FrontpageController#LanguageData as HTML
+  Parameters: {"authenticity_token"=>"9J7O5IhLAv8v0iz3/p1LmP2XIlIEiOxKez89C40fjZmrJaJzmDdcXaoqpckjGtLYmIBdz+bH2Oi+Lv9EEuVUXg=="}
+Redirected to http://localhost:3000/Travelers
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/LanguageData" for ::1 at 2017-05-10 19:58:54 -0700
+Processing by FrontpageController#LanguageData as HTML
+  Parameters: {"authenticity_token"=>"9J7O5IhLAv8v0iz3/p1LmP2XIlIEiOxKez89C40fjZmrJaJzmDdcXaoqpckjGtLYmIBdz+bH2Oi+Lv9EEuVUXg=="}
+Redirected to http://localhost:3000/Travelers
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/Travelers" for ::1 at 2017-05-10 19:58:54 -0700
+Processing by FrontpageController#TravelersQuestion as HTML
+  Rendered frontpage/TravelersQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 133ms (Views: 132.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/Language" for ::1 at 2017-05-10 20:02:01 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 120ms (Views: 119.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 20:02:02 -0700
+
+
+Started GET "/Language" for ::1 at 2017-05-10 20:12:30 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 120ms (Views: 119.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 20:12:30 -0700
+
+
+Started GET "/Language" for ::1 at 2017-05-10 20:14:02 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 113ms (Views: 113.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 20:14:02 -0700
+
+
+Started GET "/Language" for ::1 at 2017-05-10 20:14:48 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 123ms (Views: 122.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 20:14:48 -0700
+
+
+Started GET "/Language" for ::1 at 2017-05-10 20:15:13 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 122ms (Views: 121.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 20:15:13 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 20:15:13 -0700
+
+
+Started GET "/Language" for ::1 at 2017-05-10 20:22:49 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 117ms (Views: 116.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 20:22:49 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 20:22:49 -0700
+
+
+Started GET "/Language" for ::1 at 2017-05-10 20:24:12 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 121ms (Views: 120.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 20:24:12 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 20:24:12 -0700
+
+
+Started GET "/Language" for ::1 at 2017-05-10 20:24:24 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 133ms (Views: 132.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 20:24:24 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 20:24:24 -0700
+
+
+Started GET "/Language" for ::1 at 2017-05-10 20:24:42 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 119ms (Views: 119.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 20:24:42 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 20:24:42 -0700
+
+
+Started GET "/Language" for ::1 at 2017-05-10 20:25:41 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 126ms (Views: 125.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 20:25:41 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 20:25:41 -0700
+
+
+Started GET "/Language" for ::1 at 2017-05-10 20:26:26 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 117ms (Views: 116.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 20:26:26 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 20:26:26 -0700
+
+
+Started GET "/Language" for ::1 at 2017-05-10 20:26:52 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 151ms (Views: 150.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 20:26:52 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 20:26:52 -0700
+
+
+Started GET "/Language" for ::1 at 2017-05-10 20:27:38 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 126ms (Views: 126.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 20:27:38 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 20:27:38 -0700
+
+
+Started GET "/Language" for ::1 at 2017-05-10 20:28:04 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 115ms (Views: 115.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 20:28:04 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 20:28:04 -0700
+
+
+Started GET "/Language" for ::1 at 2017-05-10 20:28:31 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 117ms (Views: 116.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 20:28:31 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 20:28:31 -0700
+
+
+Started GET "/Language" for ::1 at 2017-05-10 20:28:54 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 116ms (Views: 115.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 20:28:54 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 20:28:54 -0700
+
+
+Started GET "/Language" for ::1 at 2017-05-10 20:29:05 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 125ms (Views: 124.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 20:29:05 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 20:29:05 -0700
+
+
+Started GET "/Language" for ::1 at 2017-05-10 20:32:01 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 123ms (Views: 121.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 20:32:01 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 20:32:01 -0700
+
+
+Started GET "/Language" for ::1 at 2017-05-10 20:44:09 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 128ms (Views: 127.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 20:44:09 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 20:44:09 -0700
+
+
+Started GET "/Language" for ::1 at 2017-05-10 20:44:36 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 123ms (Views: 122.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 20:44:36 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 20:44:36 -0700
+
+
+Started GET "/Language" for ::1 at 2017-05-10 20:45:23 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 121ms (Views: 121.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 20:45:23 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 20:45:23 -0700
+
+
+Started GET "/Language" for ::1 at 2017-05-10 20:45:41 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 120ms (Views: 118.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 20:45:42 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 20:45:42 -0700
+
+
+Started GET "/Language" for ::1 at 2017-05-10 20:46:03 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 131ms (Views: 131.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 20:46:03 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 20:46:03 -0700
+
+
+Started GET "/Language" for ::1 at 2017-05-10 20:46:26 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 145ms (Views: 144.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 20:46:26 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 20:46:26 -0700
+
+
+Started GET "/Language" for ::1 at 2017-05-10 20:46:53 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 122ms (Views: 122.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 20:46:53 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 20:46:53 -0700
+
+
+Started GET "/Language" for ::1 at 2017-05-10 20:48:32 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 124ms (Views: 123.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 20:48:33 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 20:48:33 -0700
+
+
+Started GET "/Language" for ::1 at 2017-05-10 20:49:10 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 117ms (Views: 116.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 20:49:10 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 20:49:10 -0700
+
+
+Started GET "/Language" for ::1 at 2017-05-10 20:49:29 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 124ms (Views: 123.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 20:49:29 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 20:49:29 -0700
+
+
+Started GET "/Language" for ::1 at 2017-05-10 20:49:46 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 120ms (Views: 119.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 20:49:46 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 20:49:47 -0700
+
+
+Started GET "/Language" for ::1 at 2017-05-10 20:50:00 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 120ms (Views: 119.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 20:50:00 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 20:50:00 -0700
+
+
+Started GET "/Language" for ::1 at 2017-05-10 20:50:10 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 121ms (Views: 121.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 20:50:10 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 20:50:11 -0700
+
+
+Started GET "/Language" for ::1 at 2017-05-10 20:50:20 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 123ms (Views: 122.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 20:50:20 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 20:50:20 -0700
+
+
+Started GET "/Language" for ::1 at 2017-05-10 20:50:26 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 119ms (Views: 118.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 20:50:26 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 20:50:26 -0700
+
+
+Started GET "/Language" for ::1 at 2017-05-10 20:50:37 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 119ms (Views: 118.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 20:50:37 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 20:50:37 -0700
+
+
+Started GET "/Language" for ::1 at 2017-05-10 20:50:43 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 121ms (Views: 120.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 20:50:43 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 20:50:44 -0700
+
+
+Started GET "/Language" for ::1 at 2017-05-10 20:50:50 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 122ms (Views: 121.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 20:50:50 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 20:50:50 -0700
+
+
+Started GET "/Language" for ::1 at 2017-05-10 20:51:04 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 120ms (Views: 119.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 20:51:04 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 20:51:04 -0700
+
+
+Started GET "/Language" for ::1 at 2017-05-10 20:51:39 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 115ms (Views: 114.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 20:51:39 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 20:51:39 -0700
+
+
+Started GET "/Language" for ::1 at 2017-05-10 20:51:42 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 121ms (Views: 120.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 20:51:43 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 20:51:43 -0700
+
+
+Started POST "/LanguageData" for ::1 at 2017-05-10 20:51:46 -0700
+Processing by FrontpageController#LanguageData as HTML
+  Parameters: {"authenticity_token"=>"QMmxva9O3a38y5XgjFrQnLDruB01DP0re56XT5AmLiQfct0qvzKDD3kzHN5R3Unc1fzHgNdDyYm+j1UAD9z34w=="}
+Redirected to http://localhost:3000/Travelers
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/Travelers" for ::1 at 2017-05-10 20:51:46 -0700
+Processing by FrontpageController#TravelersQuestion as HTML
+  Rendered frontpage/TravelersQuestion.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 108ms (Views: 107.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/Language" for ::1 at 2017-05-10 20:52:29 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 121ms (Views: 120.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 20:52:29 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 20:52:29 -0700
+
+
+Started GET "/Language" for ::1 at 2017-05-10 20:52:39 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 121ms (Views: 120.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 20:52:40 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 20:52:40 -0700
+
+
+Started GET "/Language" for ::1 at 2017-05-10 20:52:48 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 125ms (Views: 125.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 20:52:48 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 20:52:48 -0700
+
+
+Started GET "/Language" for ::1 at 2017-05-10 20:52:56 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 120ms (Views: 119.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 20:52:57 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 20:52:57 -0700
+
+
+Started POST "/LanguageData" for ::1 at 2017-05-10 20:53:02 -0700
+Processing by FrontpageController#LanguageData as HTML
+  Parameters: {"authenticity_token"=>"WGk6oH7b8PzHADXwCNGbhBjQUp/q8TL0vfAHepnRV/4H0lY3bqeuXkL4vM7VVgLEfcctAgi+BlZ44cU1BiuOOQ=="}
+Redirected to http://localhost:3000/Travelers
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/Travelers" for ::1 at 2017-05-10 20:53:02 -0700
+Processing by FrontpageController#TravelersQuestion as HTML
+  Rendered frontpage/TravelersQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 115ms (Views: 115.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/Language" for ::1 at 2017-05-10 20:53:16 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 119ms (Views: 118.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 20:53:16 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 20:53:16 -0700
+
+
+Started GET "/" for ::1 at 2017-05-10 20:53:47 -0700
+Processing by FrontpageController#Home as HTML
+  Rendered frontpage/Home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 148ms (Views: 147.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-05-10 20:53:47 -0700
+Processing by FrontpageController#Home as HTML
+  Rendered frontpage/Home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 124ms (Views: 123.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 20:53:47 -0700
+
+
+Started GET "/assets/London.jpg" for ::1 at 2017-05-10 20:53:47 -0700
+
+
+Started GET "/assets/cinqueterre.jpg" for ::1 at 2017-05-10 20:53:47 -0700
+
+
+Started GET "/assets/pisa.jpg" for ::1 at 2017-05-10 20:53:47 -0700
+
+
+Started GET "/assets/sanfran.jpg" for ::1 at 2017-05-10 20:53:47 -0700
+
+
+Started GET "/assets/york.png" for ::1 at 2017-05-10 20:53:47 -0700
+
+
+Started GET "/assets/Paris.jpg" for ::1 at 2017-05-10 20:53:47 -0700
+
+
+Started GET "/assets/mountains2.jpg" for ::1 at 2017-05-10 20:53:47 -0700
+
+
+Started GET "/assets/ocean2.jpg" for ::1 at 2017-05-10 20:53:47 -0700
+
+
+Started GET "/GenerateLocation" for ::1 at 2017-05-10 20:53:48 -0700
+Processing by FrontpageController#PopulationQuestion as HTML
+  Rendered frontpage/PopulationQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 119ms (Views: 118.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/PopulationData" for ::1 at 2017-05-10 20:53:49 -0700
+Processing by FrontpageController#PopulationData as HTML
+  Parameters: {"authenticity_token"=>"sO4+6lLCfWxuV8WEP4NodWP+XjkH91QaYhBEjxCESZvvVVJ9Qr4jzuuvTLriBPE1BukhpOW4YLinAYbAj36QXA=="}
+Redirected to http://localhost:3000/Money
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/Money" for ::1 at 2017-05-10 20:53:49 -0700
+Processing by FrontpageController#MoneyQuestion as HTML
+  Rendered frontpage/MoneyQuestion.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 114ms (Views: 113.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/MoneyData" for ::1 at 2017-05-10 20:53:50 -0700
+Processing by FrontpageController#MoneyData as HTML
+  Parameters: {"authenticity_token"=>"Ua1TL9gnnYtpxB2E2c+guu0v7FzyYeHQc+YqPsWGc0gOFj+4yFvDKew8lLoESDn6iDiTwRAu1XK29+hxWnyqjw=="}
+Redirected to http://localhost:3000/Weather
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/MoneyData" for ::1 at 2017-05-10 20:53:50 -0700
+Processing by FrontpageController#MoneyData as HTML
+  Parameters: {"authenticity_token"=>"Ua1TL9gnnYtpxB2E2c+guu0v7FzyYeHQc+YqPsWGc0gOFj+4yFvDKew8lLoESDn6iDiTwRAu1XK29+hxWnyqjw=="}
+Redirected to http://localhost:3000/Weather
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/Weather" for ::1 at 2017-05-10 20:53:50 -0700
+Processing by FrontpageController#WeatherQuestion as HTML
+  Rendered frontpage/WeatherQuestion.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 111ms (Views: 110.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/WeatherData" for ::1 at 2017-05-10 20:53:51 -0700
+Processing by FrontpageController#WeatherData as HTML
+  Parameters: {"authenticity_token"=>"bRTwm3Y5btyduJ4UF5wwtghiFIOZvZAvOGDXB/SNPYYyr5wMZkUwfhhAFyrKG6n2bXVrHnvypI39cRVIa3fkQQ=="}
+Redirected to http://localhost:3000/Language
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/Language" for ::1 at 2017-05-10 20:53:51 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 108ms (Views: 107.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 20:53:51 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 20:53:51 -0700
+
+
+Started GET "/Language" for ::1 at 2017-05-10 20:54:07 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 128ms (Views: 127.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 20:54:07 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 20:54:07 -0700
+
+
+Started GET "/Language" for ::1 at 2017-05-10 20:54:14 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 156ms (Views: 155.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 20:54:15 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 20:54:15 -0700
+
+
+Started GET "/Language" for ::1 at 2017-05-10 20:56:13 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 139ms (Views: 139.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 20:56:13 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 20:56:14 -0700
+
+
+Started GET "/Language" for ::1 at 2017-05-10 20:57:24 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 129ms (Views: 128.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 20:57:24 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 20:57:24 -0700
+
+
+Started GET "/Language" for ::1 at 2017-05-10 21:02:00 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 126ms (Views: 125.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 21:02:00 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 21:02:00 -0700
+
+
+Started GET "/Language" for ::1 at 2017-05-10 21:02:15 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 119ms (Views: 118.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 21:02:15 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 21:02:15 -0700
+
+
+Started GET "/Language" for ::1 at 2017-05-10 21:02:28 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 116ms (Views: 116.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 21:02:28 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 21:02:28 -0700
+
+
+Started GET "/Language" for ::1 at 2017-05-10 21:02:39 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 126ms (Views: 125.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 21:02:39 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 21:02:39 -0700
+
+
+Started GET "/Language" for ::1 at 2017-05-10 21:02:58 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 124ms (Views: 123.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 21:02:58 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 21:02:58 -0700
+
+
+Started GET "/Language" for ::1 at 2017-05-10 21:03:17 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 126ms (Views: 125.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 21:03:17 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 21:03:17 -0700
+
+
+Started GET "/Language" for ::1 at 2017-05-10 21:03:32 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 131ms (Views: 131.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 21:03:32 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 21:03:32 -0700
+
+
+Started GET "/Language" for ::1 at 2017-05-10 21:03:58 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 122ms (Views: 122.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 21:03:58 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 21:03:58 -0700
+
+
+Started GET "/Language" for ::1 at 2017-05-10 21:04:12 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 110ms (Views: 110.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 21:04:12 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 21:04:12 -0700
+
+
+Started GET "/Language" for ::1 at 2017-05-10 21:04:25 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 120ms (Views: 119.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 21:04:25 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 21:04:25 -0700
+
+
+Started GET "/Language" for ::1 at 2017-05-10 21:04:39 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 142ms (Views: 142.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 21:04:39 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 21:04:39 -0700
+
+
+Started GET "/Language" for ::1 at 2017-05-10 21:04:54 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 128ms (Views: 127.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 21:04:55 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 21:04:55 -0700
+
+
+Started GET "/Language" for ::1 at 2017-05-10 21:05:17 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 119ms (Views: 117.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 21:05:17 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 21:05:17 -0700
+
+
+Started POST "/LanguageData" for ::1 at 2017-05-10 21:05:22 -0700
+Processing by FrontpageController#LanguageData as HTML
+  Parameters: {"authenticity_token"=>"i9746Vg0x6OLbHziuARgZufNugKLxClTpJxJmSMtTDjUZZR+SEiZAQ6U9dxlg/kmgtrFn2mLHfFhjYvWvNeV/w=="}
+Redirected to http://localhost:3000/Travelers
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/Travelers" for ::1 at 2017-05-10 21:05:22 -0700
+Processing by FrontpageController#TravelersQuestion as HTML
+  Rendered frontpage/TravelersQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 109ms (Views: 108.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/TravelersData" for ::1 at 2017-05-10 21:05:23 -0700
+Processing by FrontpageController#TravelersData as HTML
+  Parameters: {"authenticity_token"=>"r80x4+y66W1RJ6YN7LnZ/5T7JE5wyz6TKt2N3UnrO+rwdl10/Ma3z9TfLzMxPkC/8exb05KECjHvzE+S1hHiLQ=="}
+Redirected to http://localhost:3000/Book
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/Book" for ::1 at 2017-05-10 21:05:23 -0700
+Processing by FrontpageController#Booking as HTML
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE (Langauge = 'English' and Population > 50000)  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered frontpage/Booking.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 175ms (Views: 113.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for ::1 at 2017-05-10 21:05:28 -0700
+Processing by FrontpageController#Home as HTML
+  Rendered frontpage/Home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 158ms (Views: 158.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-05-10 21:05:28 -0700
+Processing by FrontpageController#Home as HTML
+  Rendered frontpage/Home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 125ms (Views: 124.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 21:05:28 -0700
+
+
+Started GET "/assets/London.jpg" for ::1 at 2017-05-10 21:05:28 -0700
+
+
+Started GET "/assets/pisa.jpg" for ::1 at 2017-05-10 21:05:28 -0700
+
+
+Started GET "/assets/cinqueterre.jpg" for ::1 at 2017-05-10 21:05:28 -0700
+
+
+Started GET "/assets/sanfran.jpg" for ::1 at 2017-05-10 21:05:28 -0700
+
+
+Started GET "/assets/Paris.jpg" for ::1 at 2017-05-10 21:05:29 -0700
+
+
+Started GET "/assets/york.png" for ::1 at 2017-05-10 21:05:29 -0700
+
+
+Started GET "/assets/ocean2.jpg" for ::1 at 2017-05-10 21:05:29 -0700
+
+
+Started GET "/assets/mountains2.jpg" for ::1 at 2017-05-10 21:05:29 -0700
+
+
+Started GET "/GenerateLocation" for ::1 at 2017-05-10 21:05:30 -0700
+Processing by FrontpageController#PopulationQuestion as HTML
+  Rendered frontpage/PopulationQuestion.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 122ms (Views: 121.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/PopulationData" for ::1 at 2017-05-10 21:05:31 -0700
+Processing by FrontpageController#PopulationData as HTML
+  Parameters: {"authenticity_token"=>"ZG1qAKi+cJaTxrBYIEdPP4N9RtoYSeNbIrA54O8WCwY71gaXuMIuNBY+OWb9wNZ/5mo5R/oG1/nnofuvcOzSwQ=="}
+Redirected to http://localhost:3000/Money
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/Money" for ::1 at 2017-05-10 21:05:31 -0700
+Processing by FrontpageController#MoneyQuestion as HTML
+  Rendered frontpage/MoneyQuestion.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 110ms (Views: 109.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/MoneyData" for ::1 at 2017-05-10 21:05:31 -0700
+Processing by FrontpageController#MoneyData as HTML
+  Parameters: {"authenticity_token"=>"gMKZQsIslOLMYeLejppqkez8lEhnJCMjUQPpAyKA+dffefXV0lDKQEmZa+BTHfPRievr1YVrF4GUEitMvXogEA=="}
+Redirected to http://localhost:3000/Weather
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/Weather" for ::1 at 2017-05-10 21:05:31 -0700
+Processing by FrontpageController#WeatherQuestion as HTML
+  Rendered frontpage/WeatherQuestion.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 111ms (Views: 110.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/WeatherData" for ::1 at 2017-05-10 21:05:32 -0700
+Processing by FrontpageController#WeatherData as HTML
+  Parameters: {"authenticity_token"=>"RbP1XcGUAkaxke/9NvLAeZm5DDHGQdmxRp+g1cSbwhgaCJnK0ehc5DRpZsPrdVk5/K5zrCQO7RODjmKaW2Eb3w=="}
+Redirected to http://localhost:3000/Language
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/Language" for ::1 at 2017-05-10 21:05:32 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 112ms (Views: 111.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 21:05:32 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 21:05:32 -0700
+
+
+Started GET "/Language" for ::1 at 2017-05-10 21:05:52 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 124ms (Views: 123.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 21:05:52 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 21:05:52 -0700
+
+
+Started GET "/Language" for ::1 at 2017-05-10 21:06:14 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 119ms (Views: 118.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 21:06:14 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 21:06:14 -0700
+
+
+Started GET "/Language" for ::1 at 2017-05-10 21:06:30 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 125ms (Views: 119.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 21:06:30 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 21:06:30 -0700
+
+
+Started GET "/" for ::1 at 2017-05-10 21:06:46 -0700
+Processing by FrontpageController#Home as HTML
+  Rendered frontpage/Home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 142ms (Views: 142.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-05-10 21:06:47 -0700
+Processing by FrontpageController#Home as HTML
+  Rendered frontpage/Home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 125ms (Views: 125.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 21:06:47 -0700
+
+
+Started GET "/assets/London.jpg" for ::1 at 2017-05-10 21:06:47 -0700
+
+
+Started GET "/assets/cinqueterre.jpg" for ::1 at 2017-05-10 21:06:47 -0700
+
+
+Started GET "/assets/pisa.jpg" for ::1 at 2017-05-10 21:06:47 -0700
+
+
+Started GET "/assets/sanfran.jpg" for ::1 at 2017-05-10 21:06:47 -0700
+
+
+Started GET "/assets/york.png" for ::1 at 2017-05-10 21:06:47 -0700
+
+
+Started GET "/assets/Paris.jpg" for ::1 at 2017-05-10 21:06:47 -0700
+
+
+Started GET "/assets/ocean2.jpg" for ::1 at 2017-05-10 21:06:47 -0700
+
+
+Started GET "/assets/mountains2.jpg" for ::1 at 2017-05-10 21:06:47 -0700
+
+
+Started GET "/GenerateLocation" for ::1 at 2017-05-10 21:06:48 -0700
+Processing by FrontpageController#PopulationQuestion as HTML
+  Rendered frontpage/PopulationQuestion.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 124ms (Views: 123.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/PopulationData" for ::1 at 2017-05-10 21:06:49 -0700
+Processing by FrontpageController#PopulationData as HTML
+  Parameters: {"authenticity_token"=>"fWail2dq4h+iVOhO9Phv2Nct1Lu0HdcfBs8N7dgl5nAi3c4Adxa8vSesYXApf/aYsjqrJlZS473D3s+iR98/tw=="}
+Redirected to http://localhost:3000/Money
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/Money" for ::1 at 2017-05-10 21:06:49 -0700
+Processing by FrontpageController#MoneyQuestion as HTML
+  Rendered frontpage/MoneyQuestion.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 111ms (Views: 110.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/MoneyData" for ::1 at 2017-05-10 21:06:50 -0700
+Processing by FrontpageController#MoneyData as HTML
+  Parameters: {"authenticity_token"=>"ROdMrO/xW403dmY9ZJbpdkcIyszejwVdHfMOw9HTXgUbXCA7/40FL7KO7wO5EXA2Ih+1UTzAMf/Y4syMTimHwg=="}
+Redirected to http://localhost:3000/Weather
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/Weather" for ::1 at 2017-05-10 21:06:50 -0700
+Processing by FrontpageController#WeatherQuestion as HTML
+  Rendered frontpage/WeatherQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 105ms (Views: 104.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/WeatherData" for ::1 at 2017-05-10 21:06:50 -0700
+Processing by FrontpageController#WeatherData as HTML
+  Parameters: {"authenticity_token"=>"lW9fyyrSMpA0MweVw59sMcoDkAyJJpi/Tn7wq3kNRPLK1DNcOq5sMrHLjqseGPVxrxTvkWtprB2LbzLk5vedNQ=="}
+Redirected to http://localhost:3000/Language
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/Language" for ::1 at 2017-05-10 21:06:50 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 104ms (Views: 103.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 21:06:51 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 21:06:51 -0700
+
+
+Started GET "/Language" for ::1 at 2017-05-10 21:07:01 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 128ms (Views: 127.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 21:07:01 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 21:07:01 -0700
+
+
+Started GET "/Language" for ::1 at 2017-05-10 21:07:11 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 130ms (Views: 129.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 21:07:12 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 21:07:12 -0700
+
+
+Started GET "/" for ::1 at 2017-05-10 21:07:35 -0700
+Processing by FrontpageController#Home as HTML
+  Rendered frontpage/Home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 138ms (Views: 138.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-05-10 21:07:35 -0700
+Processing by FrontpageController#Home as HTML
+  Rendered frontpage/Home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 123ms (Views: 122.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 21:07:36 -0700
+
+
+Started GET "/assets/London.jpg" for ::1 at 2017-05-10 21:07:36 -0700
+
+
+Started GET "/assets/pisa.jpg" for ::1 at 2017-05-10 21:07:36 -0700
+
+
+Started GET "/assets/york.png" for ::1 at 2017-05-10 21:07:36 -0700
+
+
+Started GET "/assets/cinqueterre.jpg" for ::1 at 2017-05-10 21:07:36 -0700
+
+
+Started GET "/assets/sanfran.jpg" for ::1 at 2017-05-10 21:07:36 -0700
+
+
+Started GET "/assets/ocean2.jpg" for ::1 at 2017-05-10 21:07:36 -0700
+
+
+Started GET "/assets/Paris.jpg" for ::1 at 2017-05-10 21:07:36 -0700
+
+
+Started GET "/assets/mountains2.jpg" for ::1 at 2017-05-10 21:07:36 -0700
+
+
+Started GET "/GenerateLocation" for ::1 at 2017-05-10 21:07:37 -0700
+Processing by FrontpageController#PopulationQuestion as HTML
+  Rendered frontpage/PopulationQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 129ms (Views: 128.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/PopulationData" for ::1 at 2017-05-10 21:07:38 -0700
+Processing by FrontpageController#PopulationData as HTML
+  Parameters: {"authenticity_token"=>"QIdLksF/4YgljcWw0xeUM+ho9d9FNLuyaqH0DPI35bAfPCcF0QO/KqB1TI4OkA1zjX+KQqd7jxCvsDZDbc08dw=="}
+Redirected to http://localhost:3000/Money
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/Money" for ::1 at 2017-05-10 21:07:38 -0700
+Processing by FrontpageController#MoneyQuestion as HTML
+  Rendered frontpage/MoneyQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 118ms (Views: 117.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/MoneyData" for ::1 at 2017-05-10 21:07:39 -0700
+Processing by FrontpageController#MoneyData as HTML
+  Parameters: {"authenticity_token"=>"fEW+K8SU117+3SvUPAEcspj5+jcLz0uuOX5yABjURXUj/tK81OiJ/HslourhhoXy/e6FqumAfwz8b7BPhy6csg=="}
+Redirected to http://localhost:3000/Weather
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/Weather" for ::1 at 2017-05-10 21:07:39 -0700
+Processing by FrontpageController#WeatherQuestion as HTML
+  Rendered frontpage/WeatherQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 106ms (Views: 105.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/WeatherData" for ::1 at 2017-05-10 21:07:39 -0700
+Processing by FrontpageController#WeatherData as HTML
+  Parameters: {"authenticity_token"=>"2O79rw133WsvGBRWreM3+OqmFqEFqvMTju4vyqVZK/aHVZE4HQuDyargnWhwZK64j7FpPOflx7FL/+2FOqPyMQ=="}
+Redirected to http://localhost:3000/Language
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/Language" for ::1 at 2017-05-10 21:07:39 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 108ms (Views: 107.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 21:07:39 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 21:07:39 -0700
+
+
+Started GET "/Language" for ::1 at 2017-05-10 21:07:50 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 122ms (Views: 122.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 21:07:50 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 21:07:50 -0700
+
+
+Started GET "/Language" for ::1 at 2017-05-10 21:08:05 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 123ms (Views: 122.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 21:08:05 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 21:08:05 -0700
+
+
+Started GET "/Language" for ::1 at 2017-05-10 21:08:15 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 116ms (Views: 115.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 21:08:15 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 21:08:15 -0700
+
+
+Started GET "/" for ::1 at 2017-05-10 21:08:20 -0700
+Processing by FrontpageController#Home as HTML
+  Rendered frontpage/Home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 153ms (Views: 153.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-05-10 21:08:20 -0700
+Processing by FrontpageController#Home as HTML
+  Rendered frontpage/Home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 123ms (Views: 122.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 21:08:20 -0700
+
+
+Started GET "/assets/London.jpg" for ::1 at 2017-05-10 21:08:20 -0700
+
+
+Started GET "/assets/sanfran.jpg" for ::1 at 2017-05-10 21:08:20 -0700
+
+
+Started GET "/assets/pisa.jpg" for ::1 at 2017-05-10 21:08:20 -0700
+
+
+Started GET "/assets/cinqueterre.jpg" for ::1 at 2017-05-10 21:08:20 -0700
+
+
+Started GET "/assets/Paris.jpg" for ::1 at 2017-05-10 21:08:20 -0700
+
+
+Started GET "/assets/york.png" for ::1 at 2017-05-10 21:08:20 -0700
+
+
+Started GET "/assets/ocean2.jpg" for ::1 at 2017-05-10 21:08:20 -0700
+
+
+Started GET "/assets/mountains2.jpg" for ::1 at 2017-05-10 21:08:20 -0700
+
+
+Started GET "/GenerateLocation" for ::1 at 2017-05-10 21:08:21 -0700
+Processing by FrontpageController#PopulationQuestion as HTML
+  Rendered frontpage/PopulationQuestion.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 118ms (Views: 117.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/PopulationData" for ::1 at 2017-05-10 21:08:22 -0700
+Processing by FrontpageController#PopulationData as HTML
+  Parameters: {"authenticity_token"=>"yGYmgXck77LGRJAzU6PxSxl1OKXqzuu4j2Fq59fD0saX3UoWZ1ixEEO8GQ2OJGgLfGJHOAiB3xpKcKioSDkLAQ=="}
+Redirected to http://localhost:3000/Money
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/Money" for ::1 at 2017-05-10 21:08:22 -0700
+Processing by FrontpageController#MoneyQuestion as HTML
+  Rendered frontpage/MoneyQuestion.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 109ms (Views: 108.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/MoneyData" for ::1 at 2017-05-10 21:08:23 -0700
+Processing by FrontpageController#MoneyData as HTML
+  Parameters: {"authenticity_token"=>"tNFSivPkcYgo5GvyTGlWgym4k63iubC9SErlHO3ifeLraj4d45gvKq0c4syR7s/DTK/sMAD2hB+NWydTchikJQ=="}
+Redirected to http://localhost:3000/Weather
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/Weather" for ::1 at 2017-05-10 21:08:23 -0700
+Processing by FrontpageController#WeatherQuestion as HTML
+  Rendered frontpage/WeatherQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 120ms (Views: 120.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/WeatherData" for ::1 at 2017-05-10 21:08:23 -0700
+Processing by FrontpageController#WeatherData as HTML
+  Parameters: {"authenticity_token"=>"GiZ8XzU4IUcjVigsrkrZC0xCZpOAenx8GDAmbTm7JL5FnRDIJUR/5aauoRJzzUBLKVUZDmI1SN7dIeQipkH9eQ=="}
+Redirected to http://localhost:3000/Language
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/Language" for ::1 at 2017-05-10 21:08:23 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 110ms (Views: 109.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 21:08:23 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 21:08:23 -0700
+
+
+Started GET "/Language" for ::1 at 2017-05-10 21:09:41 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 136ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Invalid CSS after "...25,185,232,0)))": expected "{", was "; /* Chrome,Saf..."):
+    2: <html>
+    3: <head>
+    4:   <title>Unknown</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/frontpage.scss:100
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___795969905_45000816'
+
+
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (1347.8ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (1242.1ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (2911.5ms)
+
+
+Started GET "/Language" for ::1 at 2017-05-10 21:10:08 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 129ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Invalid CSS after "}": expected selector or at-rule, was "/*#Question1 {"):
+    2: <html>
+    3: <head>
+    4:   <title>Unknown</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/frontpage.scss:21
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___795969905_45000816'
+
+
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (1342.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (1230.7ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (2847.1ms)
+
+
+Started GET "/Language" for ::1 at 2017-05-10 21:10:25 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 284ms (Views: 284.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/frontpage.self-e0d224f03593577272ebbc479fdd9f09ea291907e4324914bbfc5c5d154c7141.css?body=1" for ::1 at 2017-05-10 21:10:25 -0700
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 21:10:25 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 21:10:25 -0700
+
+
+Started GET "/" for ::1 at 2017-05-10 21:11:47 -0700
+Processing by FrontpageController#Home as HTML
+  Rendered frontpage/Home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 111ms (Views: 110.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pisa.jpg" for ::1 at 2017-05-10 21:11:48 -0700
+
+
+Started GET "/assets/London.jpg" for ::1 at 2017-05-10 21:11:48 -0700
+
+
+Started GET "/assets/cinqueterre.jpg" for ::1 at 2017-05-10 21:11:48 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 21:11:48 -0700
+
+
+Started GET "/assets/sanfran.jpg" for ::1 at 2017-05-10 21:11:48 -0700
+
+
+Started GET "/assets/york.png" for ::1 at 2017-05-10 21:11:48 -0700
+
+
+Started GET "/assets/ocean2.jpg" for ::1 at 2017-05-10 21:11:48 -0700
+
+
+Started GET "/assets/mountains2.jpg" for ::1 at 2017-05-10 21:11:48 -0700
+
+
+Started GET "/assets/Paris.jpg" for ::1 at 2017-05-10 21:11:48 -0700
+
+
+Started GET "/" for ::1 at 2017-05-10 21:11:53 -0700
+Processing by FrontpageController#Home as HTML
+  Rendered frontpage/Home.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 137ms (Views: 137.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 21:11:53 -0700
+
+
+Started GET "/assets/London.jpg" for ::1 at 2017-05-10 21:11:53 -0700
+
+
+Started GET "/assets/cinqueterre.jpg" for ::1 at 2017-05-10 21:11:53 -0700
+
+
+Started GET "/assets/york.png" for ::1 at 2017-05-10 21:11:53 -0700
+
+
+Started GET "/assets/Paris.jpg" for ::1 at 2017-05-10 21:11:53 -0700
+
+
+Started GET "/assets/pisa.jpg" for ::1 at 2017-05-10 21:11:53 -0700
+
+
+Started GET "/assets/sanfran.jpg" for ::1 at 2017-05-10 21:11:54 -0700
+
+
+Started GET "/assets/mountains2.jpg" for ::1 at 2017-05-10 21:11:54 -0700
+
+
+Started GET "/assets/ocean2.jpg" for ::1 at 2017-05-10 21:11:54 -0700
+
+
+Started GET "/GenerateLocation" for ::1 at 2017-05-10 21:11:55 -0700
+Processing by FrontpageController#PopulationQuestion as HTML
+  Rendered frontpage/PopulationQuestion.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 110ms (Views: 110.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/GenerateLocation" for ::1 at 2017-05-10 21:13:04 -0700
+Processing by FrontpageController#PopulationQuestion as HTML
+  Rendered frontpage/PopulationQuestion.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 131ms (Views: 130.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 21:13:04 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 21:13:04 -0700
+
+
+Started POST "/PopulationData" for ::1 at 2017-05-10 21:13:08 -0700
+Processing by FrontpageController#PopulationData as HTML
+  Parameters: {"authenticity_token"=>"HlTokODSr4wLivN7wlEqe7YhNI7BsurJjITAKPe/hsJB74QH8K7xLo5yekUf1rM70zZLEyP93mtJlQJnaEVfBQ=="}
+Redirected to http://localhost:3000/Money
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/Money" for ::1 at 2017-05-10 21:13:08 -0700
+Processing by FrontpageController#MoneyQuestion as HTML
+  Rendered frontpage/MoneyQuestion.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 116ms (Views: 115.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/Money" for ::1 at 2017-05-10 21:17:02 -0700
+Processing by FrontpageController#MoneyQuestion as HTML
+  Rendered frontpage/MoneyQuestion.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 128ms (Views: 127.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 21:17:02 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 21:17:03 -0700
+
+
+Started POST "/MoneyData" for ::1 at 2017-05-10 21:17:04 -0700
+Processing by FrontpageController#MoneyData as HTML
+  Parameters: {"authenticity_token"=>"bO6KB8G/9zLC8yPNbfHUvf4x0mT+IM/rH0ctC/aKbcQzVeaQ0cOpkEcLqvOwdk39myat+Rxv+0naVu9EaXC0Aw=="}
+Redirected to http://localhost:3000/Weather
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/Weather" for ::1 at 2017-05-10 21:17:04 -0700
+Processing by FrontpageController#WeatherQuestion as HTML
+  Rendered frontpage/WeatherQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 112ms (Views: 112.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/Weather" for ::1 at 2017-05-10 21:18:00 -0700
+Processing by FrontpageController#WeatherQuestion as HTML
+  Rendered frontpage/WeatherQuestion.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 167ms (Views: 166.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 21:18:00 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 21:18:01 -0700
+
+
+Started POST "/WeatherData" for ::1 at 2017-05-10 21:18:57 -0700
+Processing by FrontpageController#WeatherData as HTML
+  Parameters: {"authenticity_token"=>"HFWw5YgCynVGOmTL/i3EUyA/PSFEMg0lPz8DnbqWtyBD7txymH6U18PC7fUjql0TRShCvKZ9OYf6LsHSJWxu5w=="}
+Redirected to http://localhost:3000/Language
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/Language" for ::1 at 2017-05-10 21:18:57 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 140ms (Views: 139.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 21:18:57 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 21:18:57 -0700
+
+
+Started POST "/LanguageData" for ::1 at 2017-05-10 21:19:00 -0700
+Processing by FrontpageController#LanguageData as HTML
+  Parameters: {"authenticity_token"=>"1kz0c/jQA7GxuqkSjYiH955ILqZ5v81VQ4wObXcDeuGJ95jk6KxdEzRCICxQDx63+19RO5vw+feGncwi6PmjJg=="}
+Redirected to http://localhost:3000/Travelers
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/Travelers" for ::1 at 2017-05-10 21:19:00 -0700
+Processing by FrontpageController#TravelersQuestion as HTML
+  Rendered frontpage/TravelersQuestion.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 134ms (Views: 133.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/Travelers" for ::1 at 2017-05-10 21:19:28 -0700
+Processing by FrontpageController#TravelersQuestion as HTML
+  Rendered frontpage/TravelersQuestion.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 143ms (Views: 142.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 21:19:28 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 21:19:29 -0700
+
+
+Started GET "/Travelers" for ::1 at 2017-05-10 21:19:58 -0700
+Processing by FrontpageController#TravelersQuestion as HTML
+  Rendered frontpage/TravelersQuestion.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 156ms (Views: 155.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 21:19:58 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 21:19:59 -0700
+
+
+Started POST "/TravelersData" for ::1 at 2017-05-10 21:20:00 -0700
+Processing by FrontpageController#TravelersData as HTML
+  Parameters: {"authenticity_token"=>"EF/4YSMXjCLJL+qSodk4K8FSQ6jnFOQVadMeaSneVlxP5JT2M2vSgEzXY6x8XqFrpEU8NQVb0LeswtwmtiSPmw=="}
+Redirected to http://localhost:3000/Book
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/Book" for ::1 at 2017-05-10 21:20:00 -0700
+Processing by FrontpageController#Booking as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE (Langauge = 'English' and Population > 50000)  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered frontpage/Booking.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 137ms (Views: 136.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2017-05-10 21:20:15 -0700
+Processing by FrontpageController#Home as HTML
+  Rendered frontpage/Home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 204ms (Views: 203.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-05-10 21:20:15 -0700
+Processing by FrontpageController#Home as HTML
+  Rendered frontpage/Home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 165ms (Views: 164.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 21:20:16 -0700
+
+
+Started GET "/assets/London.jpg" for ::1 at 2017-05-10 21:20:16 -0700
+
+
+Started GET "/assets/pisa.jpg" for ::1 at 2017-05-10 21:20:16 -0700
+
+
+Started GET "/assets/cinqueterre.jpg" for ::1 at 2017-05-10 21:20:16 -0700
+
+
+Started GET "/assets/sanfran.jpg" for ::1 at 2017-05-10 21:20:16 -0700
+
+
+Started GET "/assets/york.png" for ::1 at 2017-05-10 21:20:16 -0700
+
+
+Started GET "/assets/Paris.jpg" for ::1 at 2017-05-10 21:20:16 -0700
+
+
+Started GET "/assets/ocean2.jpg" for ::1 at 2017-05-10 21:20:16 -0700
+
+
+Started GET "/assets/mountains2.jpg" for ::1 at 2017-05-10 21:20:16 -0700
+
+
+Started GET "/GenerateLocation" for ::1 at 2017-05-10 21:20:19 -0700
+Processing by FrontpageController#PopulationQuestion as HTML
+  Rendered frontpage/PopulationQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 148ms (Views: 147.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 21:20:19 -0700
+
+
+Started POST "/PopulationData" for ::1 at 2017-05-10 21:20:21 -0700
+Processing by FrontpageController#PopulationData as HTML
+  Parameters: {"authenticity_token"=>"iWGA+jLJ+BcIvCLjjHJ/EJJLEvHTe4pJ55xSiSJRkiPW2uxtIrWmtY1Eq91R9eZQ91xtbDE0vusijZDGvatL5A=="}
+Redirected to http://localhost:3000/Money
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/Money" for ::1 at 2017-05-10 21:20:21 -0700
+Processing by FrontpageController#MoneyQuestion as HTML
+  Rendered frontpage/MoneyQuestion.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 156ms (Views: 155.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 21:20:21 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 21:20:21 -0700
+
+
+Started POST "/MoneyData" for ::1 at 2017-05-10 21:20:22 -0700
+Processing by FrontpageController#MoneyData as HTML
+  Parameters: {"authenticity_token"=>"w7Nr4nf9vBo96OUgqhOVrTLRoMa6SVcc5lRPxG3863ecCAd1Z4HiuLgQbB53lAztV8bfW1gGY74jRY2L8gYysA=="}
+Redirected to http://localhost:3000/Weather
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/Weather" for ::1 at 2017-05-10 21:20:22 -0700
+Processing by FrontpageController#WeatherQuestion as HTML
+  Rendered frontpage/WeatherQuestion.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 145ms (Views: 145.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 21:20:22 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 21:20:22 -0700
+
+
+Started POST "/WeatherData" for ::1 at 2017-05-10 21:20:24 -0700
+Processing by FrontpageController#WeatherData as HTML
+  Parameters: {"authenticity_token"=>"WfAMHA0vSmTRntNqs4TfGhEfvnjc206jXyN11YT6zMsGS2CLHVMUxlRmWlRuA0ZadAjB5T6UegGaMreaGwAVDA=="}
+Redirected to http://localhost:3000/Language
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/Language" for ::1 at 2017-05-10 21:20:24 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 143ms (Views: 143.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 21:20:24 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 21:20:24 -0700
+
+
+Started POST "/LanguageData" for ::1 at 2017-05-10 21:20:25 -0700
+Processing by FrontpageController#LanguageData as HTML
+  Parameters: {"authenticity_token"=>"xUy6EM3uNu8IhtLK2EDBtd4B8nlxwOPPBroBWmdOcxia99aH3ZJoTY1+W/QFx1j1uxaN5JOP123Dq8MV+LSq3w=="}
+Redirected to http://localhost:3000/Travelers
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/Travelers" for ::1 at 2017-05-10 21:20:25 -0700
+Processing by FrontpageController#TravelersQuestion as HTML
+  Rendered frontpage/TravelersQuestion.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 152ms (Views: 152.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 21:20:26 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 21:20:26 -0700
+
+
+Started POST "/TravelersData" for ::1 at 2017-05-10 21:20:27 -0700
+Processing by FrontpageController#TravelersData as HTML
+  Parameters: {"authenticity_token"=>"c5zK0WNFVxd0w4PTQ2NlRURY9iHz4te4OifMnwV1MJ4sJ6ZGczkJtfE7Cu2e5PwFIU+JvBGt4xr/Ng7Qmo/pWQ=="}
+Redirected to http://localhost:3000/Book
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/Book" for ::1 at 2017-05-10 21:20:27 -0700
+Processing by FrontpageController#Booking as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE (Langauge = 'English' and Population > 50000)  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered frontpage/Booking.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 139ms (Views: 138.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2017-05-10 21:34:17 -0700
+Processing by FrontpageController#Home as HTML
+  Rendered frontpage/Home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 201ms (Views: 200.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-05-10 21:34:17 -0700
+Processing by FrontpageController#Home as HTML
+  Rendered frontpage/Home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 179ms (Views: 179.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 21:34:17 -0700
+
+
+Started GET "/assets/London.jpg" for ::1 at 2017-05-10 21:34:17 -0700
+
+
+Started GET "/assets/sanfran.jpg" for ::1 at 2017-05-10 21:34:17 -0700
+
+
+Started GET "/assets/cinqueterre.jpg" for ::1 at 2017-05-10 21:34:17 -0700
+
+
+Started GET "/assets/pisa.jpg" for ::1 at 2017-05-10 21:34:18 -0700
+
+
+Started GET "/assets/york.png" for ::1 at 2017-05-10 21:34:18 -0700
+
+
+Started GET "/assets/Paris.jpg" for ::1 at 2017-05-10 21:34:18 -0700
+
+
+Started GET "/assets/ocean2.jpg" for ::1 at 2017-05-10 21:34:18 -0700
+
+
+Started GET "/assets/mountains2.jpg" for ::1 at 2017-05-10 21:34:18 -0700
+
+
+Started GET "/GenerateLocation" for ::1 at 2017-05-10 21:34:19 -0700
+Processing by FrontpageController#PopulationQuestion as HTML
+  Rendered frontpage/PopulationQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 135ms (Views: 134.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 21:34:19 -0700
+
+
+Started GET "/GenerateLocation" for ::1 at 2017-05-10 21:36:29 -0700
+Processing by FrontpageController#PopulationQuestion as HTML
+  Rendered frontpage/PopulationQuestion.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 176ms (Views: 175.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 21:36:29 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 21:36:29 -0700
+
+
+Started GET "/GenerateLocation" for ::1 at 2017-05-10 21:37:10 -0700
+Processing by FrontpageController#PopulationQuestion as HTML
+  Rendered frontpage/PopulationQuestion.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 169ms (Views: 168.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 21:37:10 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 21:37:10 -0700
+
+
+Started GET "/GenerateLocation" for ::1 at 2017-05-10 21:37:30 -0700
+Processing by FrontpageController#PopulationQuestion as HTML
+  Rendered frontpage/PopulationQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 180ms (Views: 179.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 21:37:31 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 21:37:31 -0700
+
+
+Started GET "/GenerateLocation" for ::1 at 2017-05-10 21:38:42 -0700
+Processing by FrontpageController#PopulationQuestion as HTML
+  Rendered frontpage/PopulationQuestion.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 126ms (Views: 126.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 21:38:42 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 21:38:42 -0700
+
+
+Started GET "/GenerateLocation" for ::1 at 2017-05-10 21:39:38 -0700
+Processing by FrontpageController#PopulationQuestion as HTML
+  Rendered frontpage/PopulationQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 143ms (Views: 141.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 21:39:38 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 21:39:38 -0700
+
+
+Started GET "/GenerateLocation" for ::1 at 2017-05-10 21:39:46 -0700
+Processing by FrontpageController#PopulationQuestion as HTML
+  Rendered frontpage/PopulationQuestion.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 201ms (Views: 200.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 21:39:46 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 21:39:46 -0700
+
+
+Started GET "/GenerateLocation" for ::1 at 2017-05-10 21:42:14 -0700
+Processing by FrontpageController#PopulationQuestion as HTML
+  Rendered frontpage/PopulationQuestion.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 141ms (Views: 140.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 21:42:15 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 21:42:15 -0700
+
+
+Started POST "/PopulationData" for ::1 at 2017-05-10 21:49:23 -0700
+Processing by FrontpageController#PopulationData as HTML
+  Parameters: {"authenticity_token"=>"LKbKQK+s4XJkvG4Q0Fzmt3F8wya8sH5FANQZdUkNgyNzHabXv9C/0OFE5y4N23/3FGu8u17/SufFxds61vda5A=="}
+Redirected to http://localhost:3000/Money
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/Money" for ::1 at 2017-05-10 21:49:23 -0700
+Processing by FrontpageController#MoneyQuestion as HTML
+  Rendered frontpage/MoneyQuestion.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 171ms (Views: 171.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 21:49:24 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 21:49:24 -0700
+
+
+Started POST "/MoneyData" for ::1 at 2017-05-10 21:49:25 -0700
+Processing by FrontpageController#MoneyData as HTML
+  Parameters: {"authenticity_token"=>"vIAY/kf3nZN1u2G0tPIRo/+o1IiM/zgJR7ngzBQXZBXjO3RpV4vDMfBD6IppdYjjmr+rFW6wDKuCqCKDi+290g=="}
+Redirected to http://localhost:3000/Weather
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/Weather" for ::1 at 2017-05-10 21:49:25 -0700
+Processing by FrontpageController#WeatherQuestion as HTML
+  Rendered frontpage/WeatherQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 238ms (Views: 237.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 21:49:26 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 21:49:26 -0700
+
+
+Started GET "/" for ::1 at 2017-05-10 21:49:55 -0700
+Processing by FrontpageController#Home as HTML
+  Rendered frontpage/Home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 180ms (Views: 179.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 21:49:56 -0700
+
+
+Started GET "/assets/London.jpg" for ::1 at 2017-05-10 21:49:56 -0700
+
+
+Started GET "/assets/sanfran.jpg" for ::1 at 2017-05-10 21:49:56 -0700
+
+
+Started GET "/assets/pisa.jpg" for ::1 at 2017-05-10 21:49:56 -0700
+
+
+Started GET "/assets/cinqueterre.jpg" for ::1 at 2017-05-10 21:49:56 -0700
+
+
+Started GET "/assets/Paris.jpg" for ::1 at 2017-05-10 21:49:56 -0700
+
+
+Started GET "/assets/york.png" for ::1 at 2017-05-10 21:49:56 -0700
+
+
+Started GET "/assets/ocean2.jpg" for ::1 at 2017-05-10 21:49:56 -0700
+
+
+Started GET "/assets/mountains2.jpg" for ::1 at 2017-05-10 21:49:56 -0700
+
+
+Started GET "/GenerateLocation" for ::1 at 2017-05-10 21:49:58 -0700
+Processing by FrontpageController#PopulationQuestion as HTML
+  Rendered frontpage/PopulationQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 139ms (Views: 138.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 21:49:58 -0700
+
+
+Started POST "/PopulationData" for ::1 at 2017-05-10 21:50:00 -0700
+Processing by FrontpageController#PopulationData as HTML
+  Parameters: {"authenticity_token"=>"jzVeqXVU8CLffGVAJ9Vwiqf7PHiUVC/roWzoXVsRP6PQjjI+ZSiugFqE7H76UunKwuxD5XYbG0lkfSoSxOvmZA=="}
+Redirected to http://localhost:3000/Money
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/Money" for ::1 at 2017-05-10 21:50:00 -0700
+Processing by FrontpageController#MoneyQuestion as HTML
+  Rendered frontpage/MoneyQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 134ms (Views: 133.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 21:50:00 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 21:50:00 -0700
+
+
+Started POST "/MoneyData" for ::1 at 2017-05-10 21:50:02 -0700
+Processing by FrontpageController#MoneyData as HTML
+  Parameters: {"authenticity_token"=>"UrGMsWrn0sTIBNS61y74yiNMrh2J2F64hyHWDGkYkj8NCuAmepuMZk38XYQKqWGKRlvRgGuXahpCMBRD9uJL+A=="}
+Redirected to http://localhost:3000/Weather
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/Weather" for ::1 at 2017-05-10 21:50:02 -0700
+Processing by FrontpageController#WeatherQuestion as HTML
+  Rendered frontpage/WeatherQuestion.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 141ms (Views: 140.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 21:50:02 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 21:50:02 -0700
+
+
+Started POST "/WeatherData" for ::1 at 2017-05-10 21:50:03 -0700
+Processing by FrontpageController#WeatherData as HTML
+  Parameters: {"authenticity_token"=>"IVvJbWHIhIbk1v7sA4g3ih5Gzvc8M+MLs4V9/AlYQ4F+4KX6cbTaJGEud9LeD67Ke1Gxat5816l2lL+zlqKaRg=="}
+Redirected to http://localhost:3000/Language
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/Language" for ::1 at 2017-05-10 21:50:03 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 137ms (Views: 137.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 21:50:04 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 21:50:04 -0700
+
+
+Started POST "/LanguageData" for ::1 at 2017-05-10 21:50:05 -0700
+Processing by FrontpageController#LanguageData as HTML
+  Parameters: {"authenticity_token"=>"bJlFAAhBRc0snnR76VUegGsin+PYfTfNrIGF9C/TKUQzIimXGD0bb6lm/UU00ofADjXgfjoyA29pkEe7sCnwgw=="}
+Redirected to http://localhost:3000/Travelers
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/Travelers" for ::1 at 2017-05-10 21:50:05 -0700
+Processing by FrontpageController#TravelersQuestion as HTML
+  Rendered frontpage/TravelersQuestion.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 144ms (Views: 143.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 21:50:05 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 21:50:05 -0700
+
+
+Started POST "/TravelersData" for ::1 at 2017-05-10 21:50:07 -0700
+Processing by FrontpageController#TravelersData as HTML
+  Parameters: {"authenticity_token"=>"2a+obb4heolrGBPHqJiVd0hz5nXxrY1YPoOSfjaUIqSGFMT6rl0kK+7gmvl1Hww3LWSZ6BPiufr7klAxqW77Yw=="}
+Redirected to http://localhost:3000/Book
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/Book" for ::1 at 2017-05-10 21:50:07 -0700
+Processing by FrontpageController#Booking as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE (Langauge = 'English' and Population > 50000)  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered frontpage/Booking.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 147ms (Views: 145.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/GenerateLocation" for ::1 at 2017-05-10 21:50:58 -0700
+Processing by FrontpageController#PopulationQuestion as HTML
+  Rendered frontpage/PopulationQuestion.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 166ms (Views: 166.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 21:50:59 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 21:50:59 -0700
+
+
+Started GET "/" for ::1 at 2017-05-10 21:52:43 -0700
+Processing by FrontpageController#Home as HTML
+  Rendered frontpage/Home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 199ms (Views: 197.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-05-10 21:52:43 -0700
+Processing by FrontpageController#Home as HTML
+  Rendered frontpage/Home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 171ms (Views: 170.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 21:52:43 -0700
+
+
+Started GET "/assets/London.jpg" for ::1 at 2017-05-10 21:52:43 -0700
+
+
+Started GET "/assets/Paris.jpg" for ::1 at 2017-05-10 21:52:43 -0700
+
+
+Started GET "/assets/cinqueterre.jpg" for ::1 at 2017-05-10 21:52:43 -0700
+
+
+Started GET "/assets/pisa.jpg" for ::1 at 2017-05-10 21:52:43 -0700
+
+
+Started GET "/assets/sanfran.jpg" for ::1 at 2017-05-10 21:52:43 -0700
+
+
+Started GET "/assets/ocean2.jpg" for ::1 at 2017-05-10 21:52:43 -0700
+
+
+Started GET "/assets/york.png" for ::1 at 2017-05-10 21:52:43 -0700
+
+
+Started GET "/assets/mountains2.jpg" for ::1 at 2017-05-10 21:52:43 -0700
+
+
+Started GET "/GenerateLocation" for ::1 at 2017-05-10 21:52:44 -0700
+Processing by FrontpageController#PopulationQuestion as HTML
+  Rendered frontpage/PopulationQuestion.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 146ms (Views: 145.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 21:52:44 -0700
+
+
+Started POST "/PopulationData" for ::1 at 2017-05-10 21:52:46 -0700
+Processing by FrontpageController#PopulationData as HTML
+  Parameters: {"authenticity_token"=>"xlyhEOK3LGMnmlLDxHznSZ5GLkYPruhXI+rnX1hIiKGZ582H8stywaJi2/0Z+34J+1FR2+3h3PXm+yUQx7JRZg=="}
+Redirected to http://localhost:3000/Money
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/PopulationData" for ::1 at 2017-05-10 21:52:46 -0700
+Processing by FrontpageController#PopulationData as HTML
+  Parameters: {"authenticity_token"=>"xlyhEOK3LGMnmlLDxHznSZ5GLkYPruhXI+rnX1hIiKGZ582H8stywaJi2/0Z+34J+1FR2+3h3PXm+yUQx7JRZg=="}
+Redirected to http://localhost:3000/Money
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/Money" for ::1 at 2017-05-10 21:52:46 -0700
+Processing by FrontpageController#MoneyQuestion as HTML
+  Rendered frontpage/MoneyQuestion.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 146ms (Views: 145.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 21:52:46 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 21:52:46 -0700
+
+
+Started GET "/" for ::1 at 2017-05-10 21:53:44 -0700
+Processing by FrontpageController#Home as HTML
+  Rendered frontpage/Home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 201ms (Views: 199.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-05-10 21:53:44 -0700
+Processing by FrontpageController#Home as HTML
+  Rendered frontpage/Home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 181ms (Views: 180.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 21:53:45 -0700
+
+
+Started GET "/assets/London.jpg" for ::1 at 2017-05-10 21:53:45 -0700
+
+
+Started GET "/assets/sanfran.jpg" for ::1 at 2017-05-10 21:53:45 -0700
+
+
+Started GET "/assets/pisa.jpg" for ::1 at 2017-05-10 21:53:45 -0700
+
+
+Started GET "/assets/cinqueterre.jpg" for ::1 at 2017-05-10 21:53:45 -0700
+
+
+Started GET "/assets/Paris.jpg" for ::1 at 2017-05-10 21:53:45 -0700
+
+
+Started GET "/assets/ocean2.jpg" for ::1 at 2017-05-10 21:53:45 -0700
+
+
+Started GET "/assets/york.png" for ::1 at 2017-05-10 21:53:45 -0700
+
+
+Started GET "/assets/mountains2.jpg" for ::1 at 2017-05-10 21:53:45 -0700
+
+
+Started GET "/GenerateLocation" for ::1 at 2017-05-10 21:55:00 -0700
+Processing by FrontpageController#PopulationQuestion as HTML
+  Rendered frontpage/PopulationQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 136ms (Views: 135.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 21:55:00 -0700
+
+
+Started POST "/PopulationData" for ::1 at 2017-05-10 21:55:01 -0700
+Processing by FrontpageController#PopulationData as HTML
+  Parameters: {"authenticity_token"=>"Z4m+7zuC72iDKZsihJPDG41x2tddAxZ0sziY/G6Hp+M4MtJ4K/6xygbREhxZFFpb6GalSr9MItZ2KVqz8X1+JA=="}
+Redirected to http://localhost:3000/Money
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/Money" for ::1 at 2017-05-10 21:55:01 -0700
+Processing by FrontpageController#MoneyQuestion as HTML
+  Rendered frontpage/MoneyQuestion.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 134ms (Views: 133.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 21:55:02 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 21:55:02 -0700
+
+
+Started POST "/MoneyData" for ::1 at 2017-05-10 21:55:03 -0700
+Processing by FrontpageController#MoneyData as HTML
+  Parameters: {"authenticity_token"=>"e1QWfaqLbhsYQMEr+eK0RyuGfFejaGJ2zbn5AF35uCQk73rquvcwuZ24SBUkZS0HTpEDykEnVtQIqDtPwgNh4w=="}
+Redirected to http://localhost:3000/Weather
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/Weather" for ::1 at 2017-05-10 21:55:03 -0700
+Processing by FrontpageController#WeatherQuestion as HTML
+  Rendered frontpage/WeatherQuestion.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 149ms (Views: 148.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 21:55:03 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 21:55:03 -0700
+
+
+Started POST "/WeatherData" for ::1 at 2017-05-10 21:55:05 -0700
+Processing by FrontpageController#WeatherData as HTML
+  Parameters: {"authenticity_token"=>"bGGD6guRvSIk9yCQXrZvFYMHHcVlpTG/2JSCii+2swQz2u99G+3jgKEPqa6DMfZV5hBiWIfqBR0dhUDFsExqww=="}
+Redirected to http://localhost:3000/Language
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/Language" for ::1 at 2017-05-10 21:55:05 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 147ms (Views: 146.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 21:55:05 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 21:55:05 -0700
+
+
+Started POST "/LanguageData" for ::1 at 2017-05-10 21:55:09 -0700
+Processing by FrontpageController#LanguageData as HTML
+  Parameters: {"authenticity_token"=>"8jZvunMBfzJ4lR5v+JYXbWvinyN5dEJO9Bbv8IlXz7ytjQMtY30hkP1tl1ElEY4tDvXgvps7duwxBy2/Fq0Wew=="}
+Redirected to http://localhost:3000/Travelers
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/Travelers" for ::1 at 2017-05-10 21:55:10 -0700
+Processing by FrontpageController#TravelersQuestion as HTML
+  Rendered frontpage/TravelersQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 137ms (Views: 136.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 21:55:10 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 21:55:10 -0700
+
+
+Started POST "/TravelersData" for ::1 at 2017-05-10 21:55:21 -0700
+Processing by FrontpageController#TravelersData as HTML
+  Parameters: {"authenticity_token"=>"IGRZvoUIMy3JbUoG14yUZpwHwwXcMBFwgWwint53VFl/3zUplXRtj0yVwzgKCw0m+RC8mD5/JdJEfeDRQY2Nng=="}
+Redirected to http://localhost:3000/Book
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/Book" for ::1 at 2017-05-10 21:55:21 -0700
+Processing by FrontpageController#Booking as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE (Langauge = 'English' and Population > 50000)  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered frontpage/Booking.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 132ms (Views: 130.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/Travelers" for ::1 at 2017-05-10 22:01:49 -0700
+Processing by FrontpageController#TravelersQuestion as HTML
+  Rendered frontpage/TravelersQuestion.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 249ms (Views: 248.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 22:01:49 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 22:01:49 -0700
+
+
+Started GET "/Travelers" for ::1 at 2017-05-10 22:02:17 -0700
+Processing by FrontpageController#TravelersQuestion as HTML
+  Rendered frontpage/TravelersQuestion.html.erb within layouts/application (2.5ms)
+Completed 500 Internal Server Error in 149ms (ActiveRecord: 0.0ms)
+
+SyntaxError (C:/Users/drath/expedia/Project/app/views/frontpage/TravelersQuestion.html.erb:22: syntax error, unexpected tSYMBEG, expecting keyword_do or '{' or '('
+...ets/logo.png" , border-radius:'10px'  );@output_buffer.safe_...
+...                               ^):
+  app/views/frontpage/TravelersQuestion.html.erb:22: syntax error, unexpected tSYMBEG, expecting keyword_do or '{' or '('
+
+
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (2605.4ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (2286.1ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (5234.9ms)
+
+
+Started GET "/Travelers" for ::1 at 2017-05-10 22:47:13 -0700
+Processing by FrontpageController#TravelersQuestion as HTML
+  Rendered frontpage/TravelersQuestion.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 289ms (Views: 287.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 22:47:14 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 22:47:14 -0700
+
+
+Started GET "/Travelers" for ::1 at 2017-05-10 22:48:37 -0700
+Processing by FrontpageController#TravelersQuestion as HTML
+  Rendered frontpage/TravelersQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 294ms (Views: 294.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 22:48:38 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-10 22:48:38 -0700

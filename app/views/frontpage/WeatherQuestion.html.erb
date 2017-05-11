@@ -1,8 +1,33 @@
-<div id="Wrapper">
-<div id="Header">
-			<h1 style="color:#39CCCC">Weather</h1>
-</div>
-	<h3 class="question">Type of weather you prefer?</h3>
+
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+</style>
+<body>
+
+<div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
+<%= image_tag "/assets/lmao.jpg" , width: '100%' %>
+  <div class="w3-display-topleft w3-padding-large w3-xlarge">
+    <%= image_tag "/assets/logo.png" %>
+    <div class="w3-grey w3-round-large">
+    <div class="w3-container w3-blue w3-round-large" style="width:60%">60%</div>
+  </div>
+  </div>
+  <div class="w3-display-middle">
+    <h1 class="w3-jumbo w3-animate-top">Type of weather you prefer?</h1>
+    <hr class="w3-border-grey" style="margin:auto;width:40%">
+    <p class="w3-large w3-center">
 	<form class="answer" action="/WeatherData" method="post">
 	<%= hidden_field_tag :authenticity_token, form_authenticity_token -%>
 		<input type="checkbox" name="weather" value="Hot">Hot<br>
@@ -11,5 +36,9 @@
 		<input type="checkbox" name="weather" value=”Snowy”>Snowy<br>
 		<input class="button" type="submit" value="Next question"/>
 </form>
-
+    </p>
+  </div>
 </div>
+
+</body>
+</html>
