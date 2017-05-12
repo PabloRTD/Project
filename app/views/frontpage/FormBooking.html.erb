@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+
+a.ex5:visited, a.ex5:link {text-decoration: none;}
+a.ex5:hover, a.ex5:active {text-decoration: underline;}
+</style>
+</head>
+<body class="w3-content" style="max-width:1300px">
+<div class="w3-row">
+  <div class="w3-half w3-black w3-container w3-center" style="height:700px">
+    <div class="w3-padding-64">
+      <%= image_tag "/assets/logo.png"  %>
+    </div>
+    <div class="w3-padding-64">
+
+  <form action="/Results" method="post">
+    <%= tag(:input, :type => "hidden", :name => request_forgery_protection_token.to_s, :value => form_authenticity_token) %>
+        <div>
+          <input class="bob" type="text" placeholder="First Name" id="fname1" name="fname">
+          <input class="bob" type="text" placeholder="Last Name" id="lname1" name="lname">
+        </div>
+          <input class="bob" type="text" placeholder="Departing From" id="fname3" name="city" >
+          <input class="bob" type="text" placeholder="Address" id="lname4" name="address">
+        <div>When are you planning on arriving?: 
+          <input class="bob" type="date" placeholder="Arriving" id="arriving" name="arriving">
+        </div>
+        <div>When are you planning on departing?: 
+          <input class="bob" type="date" placeholder="Departing" id="departing" name="departing">
+        </div>
+      <select id="Adults" name="adults">
+          <option>Adults</option> 
+          <option>1</option> 
+          <option>2</option> 
+          <option>3</option> 
+          <option>4</option> 
+          <option>5</option>  
+      </select>
+      <select id="children" name="children">
+          <option>Children (under 18)</option> 
+          <option>1</option> 
+          <option>2</option> 
+          <option>3</option> 
+          <option>4</option> 
+          <option>5</option>  
+      </select>
+  <input type="submit" value="Submit">  
+    </form>
+
+    </div>
+  </div>
+  <div class="w3-half w3-blue-grey w3-container" style="height:700px">
+    <div class="w3-padding-64 w3-center">
+      <h1>Hotels</h1>
+      <img src="/w3images/avatar3.png" class="w3-margin w3-circle" alt="Person" style="width:50%">
+      <div class="w3-left-align w3-padding-large">
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+<script>
+var m = date.match(/(\w+) (\d+)(st|nd|rd|th)/)
+    var day = m[2]
+    while(day.length < 2){
+      day = "0" + day
+    }
+    if(m && months[m[1]]){
+      return `2017-${months[m[1]]}-${day}`
+    }
+  } 
+  function departing(date){
+    $("#departing").val(process_date(date))
+  }
+  function arriving(date){
+    $("#arriving").val(process_date(date)) 
+  }
+
+  function submit_form(){
+    $("form").submit()
+  }
+        var commands= {
+            'hi': hi_,
+             'Hello': Say_Hello,
+            'first *first':typefirstname,
+            'last *last':typelastname,
+            "adults *num": setAdults,
+            "children *num": setChildren,
+             'City *City':typeCity,
+             "departing *date": departing,
+             "arriving *date": arriving,
+             "submit": submit_form,
+  annyang.addCommands(commands);
+  $("form").submit(function(e){
+    e.preventDefault()
+    console.log("submit")
+    $("#hotels").html("<p>...</p>")
+    $.post("/Results", $(this).serialize())
+      .then(function(data){
+        $("#hotels").empty()
+        if(!data){ return }
+        html_string = "<table><tr><th>Name</th><th>About</th><th>Price Range</th>"
+        data.forEach((hotel) => { html_string += `<tr><td>${hotel.name}</td><td>${hotel.shortDescription.replace(/^&lt;p&gt;&lt;b&gt;Property Location&lt;\/b&gt; &lt;br \/&gt;/,"") }...</td><td>$${hotel.lowRate.toFixed(2)}-$${hotel.highRate.toFixed(2)}</td></tr>` })
+        html_string += "</table>"
+        $("#hotels").html(html_string)
+      })
+  })
+</script>
+</html>

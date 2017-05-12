@@ -45515,3 +45515,1614 @@ Started GET "/assets/lmao.jpg" for ::1 at 2017-05-10 22:48:38 -0700
 
 
 Started GET "/assets/logo.png" for ::1 at 2017-05-10 22:48:38 -0700
+
+
+Started GET "/" for ::1 at 2017-05-11 22:20:47 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+SyntaxError (C:/Users/drath/expedia/Project/app/controllers/frontpage_controller.rb:108: syntax error, unexpected keyword_end, expecting end-of-input):
+  app/controllers/frontpage_controller.rb:108: syntax error, unexpected keyword_end, expecting end-of-input
+
+
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (27.6ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (1627.3ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (1320.1ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (3043.3ms)
+
+
+Started GET "/" for ::1 at 2017-05-11 22:21:24 -0700
+Processing by FrontpageController#Home as HTML
+  Rendered frontpage/Home.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 3174ms (Views: 3173.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-11 22:21:27 -0700
+
+
+Started GET "/assets/London.jpg" for ::1 at 2017-05-11 22:21:27 -0700
+
+
+Started GET "/assets/cinqueterre.jpg" for ::1 at 2017-05-11 22:21:27 -0700
+
+
+Started GET "/assets/pisa.jpg" for ::1 at 2017-05-11 22:21:28 -0700
+
+
+Started GET "/assets/sanfran.jpg" for ::1 at 2017-05-11 22:21:28 -0700
+
+
+Started GET "/assets/york.png" for ::1 at 2017-05-11 22:21:28 -0700
+
+
+Started GET "/assets/Paris.jpg" for ::1 at 2017-05-11 22:21:28 -0700
+
+
+Started GET "/assets/ocean2.jpg" for ::1 at 2017-05-11 22:21:28 -0700
+
+
+Started GET "/assets/mountains2.jpg" for ::1 at 2017-05-11 22:21:28 -0700
+
+
+Started GET "/GenerateLocation" for ::1 at 2017-05-11 22:21:36 -0700
+Processing by FrontpageController#PopulationQuestion as HTML
+  Rendered frontpage/PopulationQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 120ms (Views: 119.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-11 22:21:36 -0700
+
+
+Started POST "/PopulationData" for ::1 at 2017-05-11 22:21:37 -0700
+Processing by FrontpageController#PopulationData as HTML
+  Parameters: {"authenticity_token"=>"iOoasAbT86vAJfYKB9TlUg6jsmvB3Uz4uoyqBPAhbCzw+wuXO2LJTwPYPr9lv0JXZuEDdq870mj9U4YN+42EVw=="}
+Redirected to http://localhost:3000/Money
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/Money" for ::1 at 2017-05-11 22:21:37 -0700
+Processing by FrontpageController#MoneyQuestion as HTML
+  Rendered frontpage/MoneyQuestion.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 112ms (Views: 112.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-11 22:21:37 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-11 22:21:38 -0700
+
+
+Started POST "/MoneyData" for ::1 at 2017-05-11 22:21:38 -0700
+Processing by FrontpageController#MoneyData as HTML
+  Parameters: {"authenticity_token"=>"Gvd5dZ4tEuVUftsmhLfGTpb6gDvYKPliGtjm42h0aCdi5mhSo5woAZeDE5Pm3GFL/rgxJrbOZ/JdB8rqY9iAXA=="}
+Redirected to http://localhost:3000/Weather
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/Weather" for ::1 at 2017-05-11 22:21:38 -0700
+Processing by FrontpageController#WeatherQuestion as HTML
+  Rendered frontpage/WeatherQuestion.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 120ms (Views: 119.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-11 22:21:39 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-11 22:21:39 -0700
+
+
+Started POST "/WeatherData" for ::1 at 2017-05-11 22:21:39 -0700
+Processing by FrontpageController#WeatherData as HTML
+  Parameters: {"authenticity_token"=>"nbpcO0BYYgRL1tjUnOPRWwH7AJqiM8a/GKnX9ri7g0flq00cfelY4IgrEGH+iHZeabmxh8zVWC9fdvv/sxdrPA=="}
+Redirected to http://localhost:3000/Language
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/Language" for ::1 at 2017-05-11 22:21:39 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 115ms (Views: 114.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-11 22:21:40 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-11 22:21:40 -0700
+
+
+Started POST "/LanguageData" for ::1 at 2017-05-11 22:21:41 -0700
+Processing by FrontpageController#LanguageData as HTML
+  Parameters: {"authenticity_token"=>"oHfq0yGzDYfZMIIWR6TIF2I4XrlE7oGJJPmLjPmiKv3YZvv0HAI3YxrNSqMlz28SCnrvpCoIHxljJqeF8g7Chg=="}
+Redirected to http://localhost:3000/Travelers
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/Travelers" for ::1 at 2017-05-11 22:21:41 -0700
+Processing by FrontpageController#TravelersQuestion as HTML
+  Rendered frontpage/TravelersQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 132ms (Views: 131.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-11 22:21:41 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-11 22:21:41 -0700
+
+
+Started POST "/TravelersData" for ::1 at 2017-05-11 22:21:42 -0700
+Processing by FrontpageController#TravelersData as HTML
+  Parameters: {"authenticity_token"=>"2MstwqluByySW9mTw0KDBV/PRP0EaC9MQEzCOS8t+86g2jzllN89yFGmESahKSQAN4314GqOsdwHk+4wJIETtQ=="}
+Redirected to http://localhost:3000/Book
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/Book" for ::1 at 2017-05-11 22:21:42 -0700
+Processing by FrontpageController#Booking as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT  "users".* FROM "users" WHERE (Langauge = 'English' and Population > 50000)  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered frontpage/Booking.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 193ms (Views: 136.3ms | ActiveRecord: 1.5ms)
+
+
+Started POST "/ean" for ::1 at 2017-05-11 22:22:54 -0700
+
+ActionController::RoutingError (No route matches [POST] "/ean"):
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.1) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  C:/RailsInstaller/Ruby2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (52.3ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (1874.9ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (1228.3ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (2865.6ms)
+
+
+Started POST "/ean" for ::1 at 2017-05-11 22:23:43 -0700
+
+ActionController::RoutingError (uninitialized constant ZuluCController):
+  activesupport (4.2.5.1) lib/active_support/inflector/methods.rb:261:in `const_get'
+  activesupport (4.2.5.1) lib/active_support/inflector/methods.rb:261:in `block in constantize'
+  activesupport (4.2.5.1) lib/active_support/inflector/methods.rb:259:in `each'
+  activesupport (4.2.5.1) lib/active_support/inflector/methods.rb:259:in `inject'
+  activesupport (4.2.5.1) lib/active_support/inflector/methods.rb:259:in `constantize'
+  actionpack (4.2.5.1) lib/action_dispatch/routing/route_set.rb:70:in `controller_reference'
+  actionpack (4.2.5.1) lib/action_dispatch/routing/route_set.rb:60:in `controller'
+  actionpack (4.2.5.1) lib/action_dispatch/routing/route_set.rb:39:in `serve'
+  actionpack (4.2.5.1) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.5.1) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.5.1) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.5.1) lib/action_dispatch/routing/route_set.rb:815:in `call'
+  rack (1.6.5) lib/rack/etag.rb:24:in `call'
+  rack (1.6.5) lib/rack/conditionalget.rb:38:in `call'
+  rack (1.6.5) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.5) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.5) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.5.1) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.5.1) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.5.1) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.5.1) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.5.1) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.5.1) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.1) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  C:/RailsInstaller/Ruby2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (1785.7ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (1212.7ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (2834.0ms)
+
+
+Started POST "/ean" for ::1 at 2017-05-11 22:24:45 -0700
+Processing by FrontpageController#ean as HTML
+  Parameters: {"authenticity_token"=>"vRAcpajZdIORgCA6suT2aGwPUJ23CbpAEZQ5DZV3vB3FAQ2ClWhOZ1J96I/Qj1FtBE3hgNnvJNBWSxUEnttUZg==", "fname"=>"Drake", "lname"=>"ibarra", "city"=>"", "address"=>"", "arriving"=>"2017-10-03", "departing"=>"2017-10-10", "adults"=>"4", "children"=>"4"}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `pp' for #<FrontpageController:0x8c66328>):
+  app/controllers/frontpage_controller.rb:75:in `ean'
+
+
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (1351.1ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (1270.4ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (2918.3ms)
+
+
+Started POST "/ean" for ::1 at 2017-05-11 22:25:35 -0700
+Processing by FrontpageController#ean as HTML
+  Parameters: {"authenticity_token"=>"vRAcpajZdIORgCA6suT2aGwPUJ23CbpAEZQ5DZV3vB3FAQ2ClWhOZ1J96I/Qj1FtBE3hgNnvJNBWSxUEnttUZg==", "fname"=>"Drake", "lname"=>"ibarra", "city"=>"", "address"=>"", "arriving"=>"2017-10-03", "departing"=>"2017-10-10", "adults"=>"4", "children"=>"4"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-05-11 22:25:39 -0700
+Processing by FrontpageController#Home as HTML
+  Rendered frontpage/Home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 156ms (Views: 156.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-05-11 22:25:40 -0700
+Processing by FrontpageController#Home as HTML
+  Rendered frontpage/Home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 142ms (Views: 141.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-11 22:25:40 -0700
+
+
+Started GET "/assets/London.jpg" for ::1 at 2017-05-11 22:25:40 -0700
+
+
+Started GET "/assets/sanfran.jpg" for ::1 at 2017-05-11 22:25:40 -0700
+
+
+Started GET "/assets/pisa.jpg" for ::1 at 2017-05-11 22:25:40 -0700
+
+
+Started GET "/assets/cinqueterre.jpg" for ::1 at 2017-05-11 22:25:40 -0700
+
+
+Started GET "/assets/Paris.jpg" for ::1 at 2017-05-11 22:25:40 -0700
+
+
+Started GET "/assets/york.png" for ::1 at 2017-05-11 22:25:40 -0700
+
+
+Started GET "/assets/ocean2.jpg" for ::1 at 2017-05-11 22:25:40 -0700
+
+
+Started GET "/assets/mountains2.jpg" for ::1 at 2017-05-11 22:25:40 -0700
+
+
+Started GET "/GenerateLocation" for ::1 at 2017-05-11 22:25:41 -0700
+Processing by FrontpageController#PopulationQuestion as HTML
+  Rendered frontpage/PopulationQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 121ms (Views: 120.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-11 22:25:41 -0700
+
+
+Started POST "/PopulationData" for ::1 at 2017-05-11 22:25:42 -0700
+Processing by FrontpageController#PopulationData as HTML
+  Parameters: {"authenticity_token"=>"U0PTQ6wf/11QIW1tIHO7s6o8OHWCDq4PFowJUeeMTbArUsJkka7FuZPcpdhCGBy2wn6JaOzoMJ9RUyVY7CClyw=="}
+Redirected to http://localhost:3000/Money
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/Money" for ::1 at 2017-05-11 22:25:42 -0700
+Processing by FrontpageController#MoneyQuestion as HTML
+  Rendered frontpage/MoneyQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 111ms (Views: 110.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-11 22:25:43 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-11 22:25:43 -0700
+
+
+Started POST "/MoneyData" for ::1 at 2017-05-11 22:25:44 -0700
+Processing by FrontpageController#MoneyData as HTML
+  Parameters: {"authenticity_token"=>"fQSW8wcEJ7JdFbwrX78QqTaZrM9+fY6nlbFERcqJHUgFFYfUOrUdVp7odJ491LesXtsd0hCbEDfSbmhMwSX1Mw=="}
+Redirected to http://localhost:3000/Weather
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/Weather" for ::1 at 2017-05-11 22:25:44 -0700
+Processing by FrontpageController#WeatherQuestion as HTML
+  Rendered frontpage/WeatherQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 113ms (Views: 113.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-11 22:25:44 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-11 22:25:44 -0700
+
+
+Started POST "/WeatherData" for ::1 at 2017-05-11 22:25:45 -0700
+Processing by FrontpageController#WeatherData as HTML
+  Parameters: {"authenticity_token"=>"khAElPdV4yIg98Hv9VGJntOFhaJOrp23oBkOLtcmPWXqARWzyuTZxuMKCVqXOi6bu8c0vyBIAyfnxiIn3IrVHg=="}
+Redirected to http://localhost:3000/Language
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/Language" for ::1 at 2017-05-11 22:25:45 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 127ms (Views: 126.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-11 22:25:45 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-11 22:25:45 -0700
+
+
+Started POST "/LanguageData" for ::1 at 2017-05-11 22:25:46 -0700
+Processing by FrontpageController#LanguageData as HTML
+  Parameters: {"authenticity_token"=>"N+YdieLXCqbdjqdmmu+Iq2rJpJRF11J+mN8jtmutpRdP9wyu32YwQh5zb9P4hC+uAosViSsxzO7fAA+/YAFNbA=="}
+Redirected to http://localhost:3000/Travelers
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/Travelers" for ::1 at 2017-05-11 22:25:46 -0700
+Processing by FrontpageController#TravelersQuestion as HTML
+  Rendered frontpage/TravelersQuestion.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 108ms (Views: 107.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-11 22:25:46 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-11 22:25:46 -0700
+
+
+Started POST "/TravelersData" for ::1 at 2017-05-11 22:25:47 -0700
+Processing by FrontpageController#TravelersData as HTML
+  Parameters: {"authenticity_token"=>"/f026G4JZsO9IoUw4OkeOmkVhbRg9W83A5LkhfafLzeF7CfPU7hcJ37fTYWCgrk/AVc0qQ4T8adETciM/TPHTA=="}
+Redirected to http://localhost:3000/Book
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/Book" for ::1 at 2017-05-11 22:25:47 -0700
+Processing by FrontpageController#Booking as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE (Langauge = 'English' and Population > 50000)  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered frontpage/Booking.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 121ms (Views: 110.7ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/ean" for ::1 at 2017-05-11 22:26:31 -0700
+Processing by FrontpageController#ean as HTML
+  Parameters: {"authenticity_token"=>"Qu3xoUFOMi0nRPWF1UXWyw9fKe4ceHen78czBIB+9AQ6/OCGfP8IyeS5PTC3LnHOZx2Y83Ke6TeoGB8Ni9Icfw==", "fname"=>"Drake", "lname"=>"ibarra", "city"=>"kent", "address"=>"", "arriving"=>"2017-12-01", "departing"=>"2017-12-10", "adults"=>"2", "children"=>"2"}
+Completed 200 OK in 926ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-05-11 22:53:55 -0700
+Processing by FrontpageController#Home as HTML
+  Rendered frontpage/Home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 149ms (Views: 148.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-05-11 22:53:55 -0700
+Processing by FrontpageController#Home as HTML
+  Rendered frontpage/Home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 117ms (Views: 117.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-11 22:53:55 -0700
+
+
+Started GET "/assets/London.jpg" for ::1 at 2017-05-11 22:53:55 -0700
+
+
+Started GET "/assets/york.png" for ::1 at 2017-05-11 22:53:55 -0700
+
+
+Started GET "/assets/sanfran.jpg" for ::1 at 2017-05-11 22:53:55 -0700
+
+
+Started GET "/assets/cinqueterre.jpg" for ::1 at 2017-05-11 22:53:55 -0700
+
+
+Started GET "/assets/pisa.jpg" for ::1 at 2017-05-11 22:53:55 -0700
+
+
+Started GET "/assets/Paris.jpg" for ::1 at 2017-05-11 22:53:55 -0700
+
+
+Started GET "/assets/ocean2.jpg" for ::1 at 2017-05-11 22:53:55 -0700
+
+
+Started GET "/assets/mountains2.jpg" for ::1 at 2017-05-11 22:53:55 -0700
+
+
+Started GET "/Form" for ::1 at 2017-05-11 22:53:58 -0700
+Processing by FrontpageController#FormBooking as HTML
+  Rendered frontpage/FormBooking.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 107ms (Views: 107.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/simple.css" for ::1 at 2017-05-11 22:53:58 -0700
+
+ActionController::RoutingError (No route matches [GET] "/simple.css"):
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.1) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  C:/RailsInstaller/Ruby2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (1751.2ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (5.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (1232.3ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (2790.0ms)
+
+
+Started GET "/Form" for ::1 at 2017-05-11 22:58:18 -0700
+Processing by FrontpageController#FormBooking as HTML
+  Rendered frontpage/FormBooking.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 117ms (Views: 116.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/w3images/avatar3.png" for ::1 at 2017-05-11 22:58:18 -0700
+
+ActionController::RoutingError (No route matches [GET] "/w3images/avatar3.png"):
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.1) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  C:/RailsInstaller/Ruby2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (1817.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (1272.4ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (2900.7ms)
+
+
+Started POST "/ean" for ::1 at 2017-05-11 22:59:13 -0700
+Processing by FrontpageController#ean as HTML
+  Parameters: {"authenticity_token"=>"3+dO8Mjd75kSempQ4TlwvAA7T9Gq2PSljApU9GAun72n9l/X9WzVfdGHouWDUte5aHn+zMQ+ajXL1Xj9a4J3xg==", "fname"=>"", "lname"=>"", "city"=>"", "address"=>"", "arriving"=>"", "departing"=>"", "from"=>"", "back"=>"", "adults"=>"# Adults", "children"=>"# Children"}
+Completed 200 OK in 2ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/ean" for ::1 at 2017-05-11 22:59:44 -0700
+Processing by FrontpageController#ean as HTML
+  Parameters: {"authenticity_token"=>"3+dO8Mjd75kSempQ4TlwvAA7T9Gq2PSljApU9GAun72n9l/X9WzVfdGHouWDUte5aHn+zMQ+ajXL1Xj9a4J3xg==", "fname"=>"", "lname"=>"", "city"=>"", "address"=>"", "arriving"=>"", "departing"=>"", "from"=>"seattle", "back"=>"los angeles", "adults"=>"2", "children"=>"2"}
+Completed 200 OK in 2ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/ean" for ::1 at 2017-05-11 23:00:17 -0700
+Processing by FrontpageController#ean as HTML
+  Parameters: {"authenticity_token"=>"3+dO8Mjd75kSempQ4TlwvAA7T9Gq2PSljApU9GAun72n9l/X9WzVfdGHouWDUte5aHn+zMQ+ajXL1Xj9a4J3xg==", "fname"=>"pedro", "lname"=>"mclean", "city"=>"", "address"=>"", "arriving"=>"2017-08-08", "departing"=>"2017-08-15", "from"=>"seattle", "back"=>"los angeles", "adults"=>"2", "children"=>"2"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/Form" for ::1 at 2017-05-11 23:03:46 -0700
+Processing by FrontpageController#FormBooking as HTML
+  Rendered frontpage/FormBooking.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 116ms (Views: 115.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/w3images/avatar3.png" for ::1 at 2017-05-11 23:03:46 -0700
+
+ActionController::RoutingError (No route matches [GET] "/w3images/avatar3.png"):
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.1) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  C:/RailsInstaller/Ruby2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (1841.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (1243.3ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (2844.6ms)
+
+
+Started POST "/ean" for ::1 at 2017-05-11 23:03:52 -0700
+Processing by FrontpageController#ean as HTML
+  Parameters: {"authenticity_token"=>"oW3pZrUIpbeeHet/RFgcnHYeNziJYPwnXlzjqwGZaKjZfPhBiLmfU13gI8omM7uZHlyGJeeGYrcZg8+iCjWA0w==", "fname"=>"", "lname"=>"", "city"=>"", "address"=>"", "arriving"=>"", "departing"=>"", "adults"=>"# Adults", "children"=>"# Children"}
+Completed 200 OK in 1ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/ean" for ::1 at 2017-05-11 23:04:27 -0700
+Processing by FrontpageController#ean as HTML
+  Parameters: {"authenticity_token"=>"oW3pZrUIpbeeHet/RFgcnHYeNziJYPwnXlzjqwGZaKjZfPhBiLmfU13gI8omM7uZHlyGJeeGYrcZg8+iCjWA0w==", "fname"=>"Rogers", "lname"=>"drew", "city"=>"seattle", "address"=>"", "arriving"=>"2017-12-01", "departing"=>"2017-12-10", "adults"=>"1", "children"=>"2"}
+Completed 200 OK in 1004ms (Views: 29.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/Form" for ::1 at 2017-05-11 23:14:51 -0700
+Processing by FrontpageController#FormBooking as HTML
+  Rendered frontpage/FormBooking.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 111ms (Views: 110.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/w3images/avatar3.png" for ::1 at 2017-05-11 23:14:52 -0700
+
+ActionController::RoutingError (No route matches [GET] "/w3images/avatar3.png"):
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.1) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  C:/RailsInstaller/Ruby2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (1757.4ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (1516.4ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (3176.8ms)
+
+
+Started GET "/Form" for ::1 at 2017-05-11 23:17:22 -0700
+Processing by FrontpageController#FormBooking as HTML
+  Rendered frontpage/FormBooking.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 109ms (Views: 108.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-11 23:17:22 -0700
+
+
+Started GET "/w3images/avatar3.png" for ::1 at 2017-05-11 23:17:22 -0700
+
+ActionController::RoutingError (No route matches [GET] "/w3images/avatar3.png"):
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.1) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  C:/RailsInstaller/Ruby2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (1762.2ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (1209.2ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (2801.0ms)
+
+
+Started GET "/Form" for ::1 at 2017-05-11 23:27:41 -0700
+Processing by FrontpageController#FormBooking as HTML
+  Rendered frontpage/FormBooking.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 130ms (Views: 128.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-11 23:27:42 -0700
+
+
+Started GET "/w3images/avatar3.png" for ::1 at 2017-05-11 23:27:42 -0700
+
+ActionController::RoutingError (No route matches [GET] "/w3images/avatar3.png"):
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.1) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  C:/RailsInstaller/Ruby2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (1813.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (1269.9ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (2923.8ms)
+
+
+Started GET "/Form" for ::1 at 2017-05-11 23:43:50 -0700
+
+SyntaxError (C:/Users/drath/expedia/Project/config/routes.rb:27: syntax error, unexpected =>
+post "/ean", => "frontpage#ean"
+               ^):
+  config/routes.rb:27: syntax error, unexpected =>
+
+
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (1328.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (1243.3ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (2823.0ms)
+
+
+Started GET "/Form" for ::1 at 2017-05-11 23:44:15 -0700
+Processing by FrontpageController#FormBooking as HTML
+  Rendered frontpage/FormBooking.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 129ms (Views: 128.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-11 23:44:16 -0700
+
+
+Started GET "/w3images/avatar3.png" for ::1 at 2017-05-11 23:44:16 -0700
+
+ActionController::RoutingError (No route matches [GET] "/w3images/avatar3.png"):
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.1) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  C:/RailsInstaller/Ruby2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (1826.9ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (1249.3ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (2853.6ms)
+
+
+Started POST "/ean" for ::1 at 2017-05-11 23:44:41 -0700
+Processing by FrontpageController#ean as HTML
+  Parameters: {"authenticity_token"=>"ozScDcXMtzPao+rEWhseDrGoTkCtPTNMNrUuyPErAL3bJY0q+H2N1xleInE4cLkL2er/XcPbrdxxagLB+ofoxg==", "fname"=>"drath", "lname"=>"lmao", "city"=>"Seattle", "address"=>"", "arriving"=>"2017-12-01", "departing"=>"2017-12-10", "adults"=>"1", "children"=>"1"}
+Redirected to 
+Completed 500 Internal Server Error in 792ms (Views: 23.5ms | ActiveRecord: 0.0ms)
+
+AbstractController::DoubleRenderError (Render and/or redirect were called multiple times in this action. Please note that you may only call render OR redirect, and at most once per action. Also note that neither redirect nor render terminate execution of the action, so if you want to exit an action after redirecting, you need to do something like "redirect_to(...) and return".):
+  app/controllers/frontpage_controller.rb:91:in `ean'
+
+
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (1331.2ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (1223.8ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (2848.1ms)
+
+
+Started GET "/Form" for ::1 at 2017-05-11 23:49:16 -0700
+Processing by FrontpageController#FormBooking as HTML
+  Rendered frontpage/FormBooking.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 131ms (Views: 130.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-11 23:49:16 -0700
+
+
+Started GET "/w3images/avatar3.png" for ::1 at 2017-05-11 23:49:16 -0700
+
+ActionController::RoutingError (No route matches [GET] "/w3images/avatar3.png"):
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.1) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.1) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.1) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.1) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.1) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.1) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.1) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.1) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.1) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.1) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.5) lib/rack/handler/webrick.rb:88:in `service'
+  C:/RailsInstaller/Ruby2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby2.2.0/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby2.2.0/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (1811.8ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (1255.8ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (2878.5ms)
+
+
+Started POST "/Results" for ::1 at 2017-05-11 23:49:49 -0700
+Processing by FrontpageController#Results as HTML
+  Parameters: {"authenticity_token"=>"i+0q4ToWJFrITaGf44hPOPlpdsXIt/wcqiLx567Y6q7z/DvGB6cevguwaSqB4+g9kSvH2KZRYozt/d3upXQC1Q==", "fname"=>"Drake", "lname"=>"ibarra", "city"=>"seattle", "address"=>"", "arriving"=>"2017-12-01", "departing"=>"2017-12-10", "adults"=>"1", "children"=>"1"}
+Completed 200 OK in 943ms (Views: 27.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-05-11 23:55:03 -0700
+Processing by FrontpageController#Home as HTML
+  Rendered frontpage/Home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 158ms (Views: 157.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-05-11 23:55:03 -0700
+Processing by FrontpageController#Home as HTML
+  Rendered frontpage/Home.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 145ms (Views: 144.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-11 23:55:03 -0700
+
+
+Started GET "/assets/London.jpg" for ::1 at 2017-05-11 23:55:03 -0700
+
+
+Started GET "/assets/york.png" for ::1 at 2017-05-11 23:55:03 -0700
+
+
+Started GET "/assets/sanfran.jpg" for ::1 at 2017-05-11 23:55:03 -0700
+
+
+Started GET "/assets/Paris.jpg" for ::1 at 2017-05-11 23:55:03 -0700
+
+
+Started GET "/assets/cinqueterre.jpg" for ::1 at 2017-05-11 23:55:03 -0700
+
+
+Started GET "/assets/pisa.jpg" for ::1 at 2017-05-11 23:55:03 -0700
+
+
+Started GET "/assets/ocean2.jpg" for ::1 at 2017-05-11 23:55:03 -0700
+
+
+Started GET "/assets/mountains2.jpg" for ::1 at 2017-05-11 23:55:03 -0700
+
+
+Started GET "/GenerateLocation" for ::1 at 2017-05-11 23:55:05 -0700
+Processing by FrontpageController#PopulationQuestion as HTML
+  Rendered frontpage/PopulationQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 114ms (Views: 113.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-11 23:55:05 -0700
+
+
+Started POST "/PopulationData" for ::1 at 2017-05-11 23:55:07 -0700
+Processing by FrontpageController#PopulationData as HTML
+  Parameters: {"authenticity_token"=>"dxOmR7vagIMgYRpur8A/u9yCJIoPjqJxigbqpUhgUIgPArdghmu6Z+Oc0tvNq5i+tMCVl2FoPOHN2casQ8y48w==", "pop"=>"high"}
+Redirected to http://localhost:3000/Money
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/Money" for ::1 at 2017-05-11 23:55:07 -0700
+Processing by FrontpageController#MoneyQuestion as HTML
+  Rendered frontpage/MoneyQuestion.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 114ms (Views: 113.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-11 23:55:07 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-11 23:55:07 -0700
+
+
+Started POST "/MoneyData" for ::1 at 2017-05-11 23:55:33 -0700
+Processing by FrontpageController#MoneyData as HTML
+  Parameters: {"authenticity_token"=>"ZacuA+GqO/X+lBCt9HneZ1eLCs37A71SsL2Tk/MbMlEdtj8k3BsBET1p2BiWEnliP8m70JXlI8L3Yr+a+LfaKg==", "money"=>"$1000-$5000"}
+Redirected to http://localhost:3000/Weather
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/Weather" for ::1 at 2017-05-11 23:55:33 -0700
+Processing by FrontpageController#WeatherQuestion as HTML
+  Rendered frontpage/WeatherQuestion.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 125ms (Views: 124.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-11 23:55:33 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-11 23:55:33 -0700
+
+
+Started POST "/WeatherData" for ::1 at 2017-05-11 23:57:19 -0700
+Processing by FrontpageController#WeatherData as HTML
+  Parameters: {"authenticity_token"=>"+ERnVyLZ+qoz01QqLCHMePdrblDWuQYvfkMlJrqwCYqAVXZwH2jATvAunJ9OSmt9nynfTbhfmL85nAkvsRzh8Q==", "weather"=>"Hot"}
+Redirected to http://localhost:3000/Language
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/Language" for ::1 at 2017-05-11 23:57:19 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 121ms (Views: 121.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-11 23:57:20 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-11 23:57:20 -0700
+
+
+Started POST "/LanguageData" for ::1 at 2017-05-11 23:57:22 -0700
+Processing by FrontpageController#LanguageData as HTML
+  Parameters: {"authenticity_token"=>"67ODPULjNnwjor8WGVOFAfwlZDW5ni1eDIa6zgObrCyTopIaf1IMmOBfd6N7OCIElGfVKNd4s85LWZbHCDdEVw==", "language"=>"English"}
+Redirected to http://localhost:3000/Travelers
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/Travelers" for ::1 at 2017-05-11 23:57:22 -0700
+Processing by FrontpageController#TravelersQuestion as HTML
+  Rendered frontpage/TravelersQuestion.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 108ms (Views: 107.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-11 23:57:23 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-11 23:57:23 -0700
+
+
+Started POST "/TravelersData" for ::1 at 2017-05-11 23:57:24 -0700
+Processing by FrontpageController#TravelersData as HTML
+  Parameters: {"authenticity_token"=>"pv3qrP0XwbbZTEruMPGBTAhuyX3NadL1jVFfcOF7tIbe7PuLwKb7UhqxgltSmiZJYCx4YKOPTGXKjnN56tdc/Q==", "people"=>"4"}
+Redirected to http://localhost:3000/Book
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/Book" for ::1 at 2017-05-11 23:57:24 -0700
+Processing by FrontpageController#Booking as HTML
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE (Langauge = 'English' and Population > 50000)  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered frontpage/Booking.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 118ms (Views: 110.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for ::1 at 2017-05-11 23:58:40 -0700
+Processing by FrontpageController#Home as HTML
+  Rendered frontpage/Home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 151ms (Views: 150.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-11 23:58:40 -0700
+
+
+Started GET "/assets/London.jpg" for ::1 at 2017-05-11 23:58:40 -0700
+
+
+Started GET "/assets/sanfran.jpg" for ::1 at 2017-05-11 23:58:40 -0700
+
+
+Started GET "/assets/pisa.jpg" for ::1 at 2017-05-11 23:58:40 -0700
+
+
+Started GET "/assets/cinqueterre.jpg" for ::1 at 2017-05-11 23:58:40 -0700
+
+
+Started GET "/assets/Paris.jpg" for ::1 at 2017-05-11 23:58:40 -0700
+
+
+Started GET "/assets/york.png" for ::1 at 2017-05-11 23:58:40 -0700
+
+
+Started GET "/assets/ocean2.jpg" for ::1 at 2017-05-11 23:58:40 -0700
+
+
+Started GET "/assets/mountains2.jpg" for ::1 at 2017-05-11 23:58:40 -0700
+
+
+Started GET "/GenerateLocation" for ::1 at 2017-05-11 23:58:43 -0700
+Processing by FrontpageController#PopulationQuestion as HTML
+  Rendered frontpage/PopulationQuestion.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 123ms (Views: 122.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-11 23:58:43 -0700
+
+
+Started POST "/PopulationData" for ::1 at 2017-05-11 23:58:45 -0700
+Processing by FrontpageController#PopulationData as HTML
+  Parameters: {"authenticity_token"=>"CVUOxUDeulskuH8u0XOGdhjvM67bOUX+extvzrOB8nBxRB/ifW+Av+dFt5uzGCFzcK2Cs7Xf2248xEPHuC0aCw==", "pop"=>"high"}
+Redirected to http://localhost:3000/Money
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/Money" for ::1 at 2017-05-11 23:58:45 -0700
+Processing by FrontpageController#MoneyQuestion as HTML
+  Rendered frontpage/MoneyQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 120ms (Views: 120.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-11 23:58:45 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-11 23:58:45 -0700
+
+
+Started POST "/MoneyData" for ::1 at 2017-05-11 23:58:47 -0700
+Processing by FrontpageController#MoneyData as HTML
+  Parameters: {"authenticity_token"=>"6DuIzsOWiLIiI38ZOsnOYV5gShckWKqpvd6y2SgFiXiQKpnp/ieyVuHet6xYomlkNiL7Ckq+NDn6AZ7QI6lhAw==", "money"=>"$1000-$5000"}
+Redirected to http://localhost:3000/Weather
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/Weather" for ::1 at 2017-05-11 23:58:47 -0700
+Processing by FrontpageController#WeatherQuestion as HTML
+  Rendered frontpage/WeatherQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 120ms (Views: 119.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-11 23:58:47 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-11 23:58:47 -0700
+
+
+Started POST "/WeatherData" for ::1 at 2017-05-11 23:58:49 -0700
+Processing by FrontpageController#WeatherData as HTML
+  Parameters: {"authenticity_token"=>"EZZVmE7iUh6rHhpRcj0PzR0SdA0qtbYrrENSQejHPPtph0S/c1No+mjj0uQQVqjIdVDFEERTKLvrnH5I42vUgA==", "weather"=>"Hot"}
+Redirected to http://localhost:3000/Language
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/Language" for ::1 at 2017-05-11 23:58:49 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 110ms (Views: 109.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-11 23:58:49 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-11 23:58:49 -0700
+
+
+Started POST "/LanguageData" for ::1 at 2017-05-11 23:58:51 -0700
+Processing by FrontpageController#LanguageData as HTML
+  Parameters: {"authenticity_token"=>"g4pRaSC53XYESNKmN80J34QMG4Eet8f08rqInIMU+R37m0BOHQjnkse1GhNVpq7a7E6qnHBRWWS1ZaSViLgRZg==", "language"=>"English"}
+Redirected to http://localhost:3000/Travelers
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/Travelers" for ::1 at 2017-05-11 23:58:51 -0700
+Processing by FrontpageController#TravelersQuestion as HTML
+  Rendered frontpage/TravelersQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 112ms (Views: 111.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-11 23:58:52 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-11 23:58:52 -0700
+
+
+Started POST "/TravelersData" for ::1 at 2017-05-11 23:58:53 -0700
+Processing by FrontpageController#TravelersData as HTML
+  Parameters: {"authenticity_token"=>"L3GKD0MFl2f1D+f17zWqGyygVU51K+2TNXltd6ZBVwRXYJsofrStgzbyL0CNXg0eROLkUxvNcwNypkF+re2/fw==", "people"=>"4"}
+Redirected to http://localhost:3000/Book
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/Book" for ::1 at 2017-05-11 23:58:53 -0700
+Processing by FrontpageController#Booking as HTML
+  [1m[36mUser Load (1.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."Pop" = 'high' AND "users"."MoneyRangeId" = '$1000-$5000' AND "users"."WeatherId" = 'Hot' AND "users"."LanguageId" = 'English' AND "users"."TravelersId" IS NULL  ORDER BY "users"."id" ASC LIMIT 1[0m
+Completed 500 Internal Server Error in 70ms (ActiveRecord: 3.0ms)
+
+ActiveRecord::StatementInvalid (SQLite3::SQLException: no such column: users.Pop: SELECT  "users".* FROM "users" WHERE "users"."Pop" = 'high' AND "users"."MoneyRangeId" = '$1000-$5000' AND "users"."WeatherId" = 'Hot' AND "users"."LanguageId" = 'English' AND "users"."TravelersId" IS NULL  ORDER BY "users"."id" ASC LIMIT 1):
+  app/controllers/frontpage_controller.rb:59:in `Booking'
+
+
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (1303.6ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (1195.8ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (2781.0ms)
+
+
+Started GET "/" for ::1 at 2017-05-11 23:59:29 -0700
+Processing by FrontpageController#Home as HTML
+  Rendered frontpage/Home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 174ms (Views: 174.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-05-11 23:59:29 -0700
+Processing by FrontpageController#Home as HTML
+  Rendered frontpage/Home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 108ms (Views: 107.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-11 23:59:29 -0700
+
+
+Started GET "/assets/London.jpg" for ::1 at 2017-05-11 23:59:29 -0700
+
+
+Started GET "/assets/cinqueterre.jpg" for ::1 at 2017-05-11 23:59:29 -0700
+
+
+Started GET "/assets/sanfran.jpg" for ::1 at 2017-05-11 23:59:29 -0700
+
+
+Started GET "/assets/york.png" for ::1 at 2017-05-11 23:59:29 -0700
+
+
+Started GET "/assets/pisa.jpg" for ::1 at 2017-05-11 23:59:29 -0700
+
+
+Started GET "/assets/Paris.jpg" for ::1 at 2017-05-11 23:59:29 -0700
+
+
+Started GET "/assets/ocean2.jpg" for ::1 at 2017-05-11 23:59:29 -0700
+
+
+Started GET "/assets/mountains2.jpg" for ::1 at 2017-05-11 23:59:29 -0700
+
+
+Started GET "/GenerateLocation" for ::1 at 2017-05-11 23:59:31 -0700
+Processing by FrontpageController#PopulationQuestion as HTML
+  Rendered frontpage/PopulationQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 114ms (Views: 113.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-11 23:59:31 -0700
+
+
+Started POST "/PopulationData" for ::1 at 2017-05-11 23:59:34 -0700
+Processing by FrontpageController#PopulationData as HTML
+  Parameters: {"authenticity_token"=>"ZanJagWovCBkob9rtEFtJN5HyrxMdMAD+UZQyptk6kUduNhNOBmGxKdcd97WKsohtgV7oSKSXpO+mXzDkMgCPg==", "pop"=>"high"}
+Redirected to http://localhost:3000/Money
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/Money" for ::1 at 2017-05-11 23:59:34 -0700
+Processing by FrontpageController#MoneyQuestion as HTML
+  Rendered frontpage/MoneyQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 123ms (Views: 122.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-11 23:59:34 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-11 23:59:34 -0700
+
+
+Started POST "/MoneyData" for ::1 at 2017-05-11 23:59:37 -0700
+Processing by FrontpageController#MoneyData as HTML
+  Parameters: {"authenticity_token"=>"eLjqFLaeZfMF1ujBjQSXHKuX9RDuVK/G+WR3hQlq2hsAqfsziy9fF8YrIHTvbzAZw9VEDYCyMVa+u1uMAsYyYA==", "money"=>"$1000-$5000"}
+Redirected to http://localhost:3000/Weather
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/Weather" for ::1 at 2017-05-11 23:59:37 -0700
+Processing by FrontpageController#WeatherQuestion as HTML
+  Rendered frontpage/WeatherQuestion.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 112ms (Views: 111.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-11 23:59:37 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-11 23:59:37 -0700
+
+
+Started POST "/WeatherData" for ::1 at 2017-05-11 23:59:39 -0700
+Processing by FrontpageController#WeatherData as HTML
+  Parameters: {"authenticity_token"=>"LeB1MzCQClqVTjdwigMBEdAMfIsQCt8/oqXHdXyhPvtV8WQUDSEwvlaz/8XoaKYUuE7Nln7sQa/leut8dw3WgA==", "weather"=>"Hot"}
+Redirected to http://localhost:3000/Language
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/Language" for ::1 at 2017-05-11 23:59:39 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 117ms (Views: 117.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-11 23:59:39 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-11 23:59:39 -0700
+
+
+Started POST "/LanguageData" for ::1 at 2017-05-11 23:59:42 -0700
+Processing by FrontpageController#LanguageData as HTML
+  Parameters: {"authenticity_token"=>"43te5VEuzrlk8wl4XzIjqiWZAZZqT79sXr+OEp4Sl06bak/CbJ/0XacOwc09WYSvTduwiwSpIfwZYKIblb5/NQ==", "language"=>"English"}
+Redirected to http://localhost:3000/Travelers
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/Travelers" for ::1 at 2017-05-11 23:59:42 -0700
+Processing by FrontpageController#TravelersQuestion as HTML
+  Rendered frontpage/TravelersQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 108ms (Views: 108.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-11 23:59:42 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-11 23:59:42 -0700
+
+
+Started POST "/TravelersData" for ::1 at 2017-05-11 23:59:44 -0700
+Processing by FrontpageController#TravelersData as HTML
+  Parameters: {"authenticity_token"=>"K42co2ycJ+uZgIfBTa7Zpwd/mvVhBmqQ5F+SaAVZ6YNTnI2EUS0dD1p9T3QvxX6ibz0r6A/g9ACjgL5hDvUB+A==", "people"=>"4"}
+Redirected to http://localhost:3000/Book
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/Book" for ::1 at 2017-05-11 23:59:44 -0700
+Processing by FrontpageController#Booking as HTML
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE (Langauge = :langauge and Population > :population)  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered frontpage/Booking.html.erb within layouts/application (23.1ms)
+Completed 500 Internal Server Error in 89ms (ActiveRecord: 1.0ms)
+
+ActionView::Template::Error (undefined method `[]' for nil:NilClass):
+    4: </div>
+    5: 
+    6: 	<h2>Your Destination Was Chosen</h2>
+    7: 	<h3>It seems you want to go to <%= @Destination["Destination"]%></h3>
+    8: 
+    9: 	<%= @data %>
+   10: </div>
+  app/views/frontpage/Booking.html.erb:7:in `_app_views_frontpage__ooking_html_erb___694891026_68429592'
+
+
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (1290.4ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (1218.3ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered C:/RailsInstaller/Ruby2.2.0/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (2774.9ms)
+
+
+Started POST "/TravelersData" for ::1 at 2017-05-12 00:01:22 -0700
+Processing by FrontpageController#TravelersData as HTML
+  Parameters: {"authenticity_token"=>"K42co2ycJ+uZgIfBTa7Zpwd/mvVhBmqQ5F+SaAVZ6YNTnI2EUS0dD1p9T3QvxX6ibz0r6A/g9ACjgL5hDvUB+A==", "people"=>"4"}
+Redirected to http://localhost:3000/Book
+Completed 302 Found in 0ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/Book" for ::1 at 2017-05-12 00:01:22 -0700
+Processing by FrontpageController#Booking as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT  "users".* FROM "users" WHERE (Langauge = 'English' and Population > 50000)  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered frontpage/Booking.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 116ms (Views: 108.6ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/Book" for ::1 at 2017-05-12 00:01:36 -0700
+Processing by FrontpageController#Booking as HTML
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE (Langauge = 'English' and Population > 50000)  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered frontpage/Booking.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 128ms (Views: 120.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/Book" for ::1 at 2017-05-12 00:01:37 -0700
+Processing by FrontpageController#Booking as HTML
+  [1m[36mUser Load (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE (Langauge = 'English' and Population > 50000)  ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered frontpage/Booking.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 117ms (Views: 116.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-05-12 00:01:40 -0700
+Processing by FrontpageController#Home as HTML
+  Rendered frontpage/Home.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 150ms (Views: 150.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-05-12 00:01:40 -0700
+Processing by FrontpageController#Home as HTML
+  Rendered frontpage/Home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 119ms (Views: 118.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-12 00:01:40 -0700
+
+
+Started GET "/assets/pisa.jpg" for ::1 at 2017-05-12 00:01:40 -0700
+
+
+Started GET "/assets/cinqueterre.jpg" for ::1 at 2017-05-12 00:01:40 -0700
+
+
+Started GET "/assets/London.jpg" for ::1 at 2017-05-12 00:01:40 -0700
+
+
+Started GET "/assets/sanfran.jpg" for ::1 at 2017-05-12 00:01:40 -0700
+
+
+Started GET "/assets/Paris.jpg" for ::1 at 2017-05-12 00:01:40 -0700
+
+
+Started GET "/assets/york.png" for ::1 at 2017-05-12 00:01:40 -0700
+
+
+Started GET "/assets/ocean2.jpg" for ::1 at 2017-05-12 00:01:40 -0700
+
+
+Started GET "/assets/mountains2.jpg" for ::1 at 2017-05-12 00:01:40 -0700
+
+
+Started GET "/GenerateLocation" for ::1 at 2017-05-12 00:01:41 -0700
+Processing by FrontpageController#PopulationQuestion as HTML
+  Rendered frontpage/PopulationQuestion.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 116ms (Views: 116.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-12 00:01:41 -0700
+
+
+Started POST "/PopulationData" for ::1 at 2017-05-12 00:01:43 -0700
+Processing by FrontpageController#PopulationData as HTML
+  Parameters: {"authenticity_token"=>"Qno134Io4IHfdWnFq1WOLx4r9Xld+m51Lb4ykV0DMbI6ayT4v5naZRyIoXDJPikqdmlEZDMc8OVqYR6YVq/ZyQ==", "pop"=>"high"}
+Redirected to http://localhost:3000/Money
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/Money" for ::1 at 2017-05-12 00:01:43 -0700
+Processing by FrontpageController#MoneyQuestion as HTML
+  Rendered frontpage/MoneyQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 119ms (Views: 118.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-12 00:01:44 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-12 00:01:44 -0700
+
+
+Started POST "/MoneyData" for ::1 at 2017-05-12 00:01:45 -0700
+Processing by FrontpageController#MoneyData as HTML
+  Parameters: {"authenticity_token"=>"EgIBz/7L+gNGntC8TJEkdxIrZzSNS8i7AK4Mc3UoIhZqExDow3rA54VjGAku+oNyemnWKeOtVitHcSB6foTKbQ==", "money"=>"$1000-$5000"}
+Redirected to http://localhost:3000/Weather
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/Weather" for ::1 at 2017-05-12 00:01:45 -0700
+Processing by FrontpageController#WeatherQuestion as HTML
+  Rendered frontpage/WeatherQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 110ms (Views: 109.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-12 00:01:45 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-12 00:01:45 -0700
+
+
+Started POST "/WeatherData" for ::1 at 2017-05-12 00:01:47 -0700
+Processing by FrontpageController#WeatherData as HTML
+  Parameters: {"authenticity_token"=>"FdALAlmEafax6/Xciw4CojM1v4Pev+D08OVzoV+ggp5twRolZDVTEnIWPWnpZaWnW3cOnrBZfmS3Ol+oVAxq5Q==", "weather"=>"Cold"}
+Redirected to http://localhost:3000/Language
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/Language" for ::1 at 2017-05-12 00:01:47 -0700
+Processing by FrontpageController#LanguageQuestion as HTML
+  Rendered frontpage/LanguageQuestion.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 110ms (Views: 110.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-12 00:01:47 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-12 00:01:47 -0700
+
+
+Started POST "/LanguageData" for ::1 at 2017-05-12 00:01:49 -0700
+Processing by FrontpageController#LanguageData as HTML
+  Parameters: {"authenticity_token"=>"rn8OUrgLN5RcGegjc9sUgLbTePVGbd0hnpXbBK0iOszWbh91hboNcJ/kIJYRsLOF3pHJ6CiLQ7HZSvcNpo7Stw==", "language"=>"”Russian”"}
+Redirected to http://localhost:3000/Travelers
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/Travelers" for ::1 at 2017-05-12 00:01:49 -0700
+Processing by FrontpageController#TravelersQuestion as HTML
+  Rendered frontpage/TravelersQuestion.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 148ms (Views: 147.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lmao.jpg" for ::1 at 2017-05-12 00:01:49 -0700
+
+
+Started GET "/assets/logo.png" for ::1 at 2017-05-12 00:01:49 -0700
+
+
+Started POST "/TravelersData" for ::1 at 2017-05-12 00:01:51 -0700
+Processing by FrontpageController#TravelersData as HTML
+  Parameters: {"authenticity_token"=>"NtaDWbrSRMAa4YEyRA4v9uBJB+BCQAOeWL1DTAj1HDFOx5J+h2N+JNkcSYcmZYjziAu2/SymnQ4fYm9FA1n0Sg==", "people"=>"4"}
+Redirected to http://localhost:3000/Book
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/Book" for ::1 at 2017-05-12 00:01:51 -0700
+Processing by FrontpageController#Booking as HTML
+  [1m[35mUser Load (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE (Langauge = 'English' and Population > 50000)  ORDER BY "users"."id" ASC LIMIT 1
+  Rendered frontpage/Booking.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 119ms (Views: 118.7ms | ActiveRecord: 0.0ms)
